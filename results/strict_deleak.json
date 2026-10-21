@@ -1,0 +1,2406 @@
+{
+ "protocol": {
+  "identity": "global alignment, matches / min(len); length ratio >= 0.8",
+  "thresholds": [
+   0.9,
+   0.8,
+   0.7,
+   0.6,
+   0.5
+  ],
+  "train": 345,
+  "val": 43,
+  "test": 46
+ },
+ "splits": {
+  "p90": {
+   "threshold": 0.9,
+   "remove_train_ids": [
+    "1aju_A",
+    "1akx_A",
+    "1arj_N",
+    "1fyp_A",
+    "1lc4_A",
+    "1uts_B",
+    "1uud_B",
+    "2be0_A",
+    "2cky_A",
+    "2esi_A",
+    "2esj_A",
+    "2et4_A",
+    "2gis_A",
+    "2hoj_A",
+    "2hoo_A",
+    "2hop_A",
+    "2l8h_A",
+    "2m4q_1",
+    "2ydh_A",
+    "2ygh_A",
+    "3d2g_A",
+    "3d2v_A",
+    "3gx3_A",
+    "3iqn_A",
+    "3k0j_E",
+    "3s4p_A",
+    "4aob_A",
+    "4f8u_A",
+    "4f8v_A",
+    "4gpy_A",
+    "4lx5_A",
+    "4lx6_A",
+    "4nya_A",
+    "4nyg_A",
+    "4p20_A",
+    "4pdq_A",
+    "4yb0_R",
+    "5bjp_E",
+    "5btp_B",
+    "5fjc_A",
+    "5fk1_A",
+    "5fk2_A",
+    "5fk3_A",
+    "5fk5_A",
+    "5fkd_A",
+    "5fke_A",
+    "5fkf_A",
+    "5fkg_A",
+    "5fkh_A",
+    "5ob3_A",
+    "6e81_A",
+    "6e84_A",
+    "6n5k_A",
+    "6n5n_A",
+    "6n5o_A",
+    "6n5p_A",
+    "6n5q_A",
+    "6od9_A",
+    "6wtl_A",
+    "6wzr_A",
+    "7edl_A",
+    "7elp_A",
+    "7eoi_A",
+    "7eol_A",
+    "7eom_A",
+    "7eon_A",
+    "7eoo_A",
+    "7eop_A",
+    "7kvv_D",
+    "7oav_A",
+    "7oax_A",
+    "7tda_A",
+    "7tdb_A",
+    "7tdc_A",
+    "7tzt_A",
+    "8eyu_B",
+    "8eyv_A",
+    "8eyw_B",
+    "8f0n_B",
+    "8f4o_A",
+    "8hb3_A",
+    "8i3z_A"
+   ],
+   "remove_val_ids": [
+    "1yrj_A",
+    "2bee_A",
+    "2hol_A",
+    "3wru_A",
+    "4b5r_A",
+    "4nyb_A",
+    "4qk8_A",
+    "4qka_A",
+    "7eok_A",
+    "7kvt_B",
+    "7tzu_A"
+   ],
+   "n_train_left": 263,
+   "n_val_left": 32
+  },
+  "p80": {
+   "threshold": 0.8,
+   "remove_train_ids": [
+    "1aju_A",
+    "1akx_A",
+    "1arj_N",
+    "1fyp_A",
+    "1lc4_A",
+    "1uts_B",
+    "1uud_B",
+    "2be0_A",
+    "2cky_A",
+    "2esi_A",
+    "2esj_A",
+    "2et4_A",
+    "2gis_A",
+    "2hoj_A",
+    "2hoo_A",
+    "2hop_A",
+    "2l8h_A",
+    "2m4q_1",
+    "2o3v_A",
+    "2ydh_A",
+    "2ygh_A",
+    "3bnq_A",
+    "3bnr_A",
+    "3d2g_A",
+    "3d2v_A",
+    "3gx3_A",
+    "3iqn_A",
+    "3k0j_E",
+    "3s4p_A",
+    "4aob_A",
+    "4f8u_A",
+    "4f8v_A",
+    "4gpw_A",
+    "4gpx_A",
+    "4gpy_A",
+    "4lx5_A",
+    "4lx6_A",
+    "4nya_A",
+    "4nyg_A",
+    "4p20_A",
+    "4pdq_A",
+    "4yb0_R",
+    "5bjp_E",
+    "5btp_B",
+    "5fjc_A",
+    "5fk1_A",
+    "5fk2_A",
+    "5fk3_A",
+    "5fk5_A",
+    "5fkd_A",
+    "5fke_A",
+    "5fkf_A",
+    "5fkg_A",
+    "5fkh_A",
+    "5ob3_A",
+    "5xz1_A",
+    "5z1h_A",
+    "5z1i_A",
+    "6e81_A",
+    "6e84_A",
+    "6n5k_A",
+    "6n5n_A",
+    "6n5o_A",
+    "6n5p_A",
+    "6n5q_A",
+    "6od9_A",
+    "6wtl_A",
+    "6wzr_A",
+    "7edl_A",
+    "7elp_A",
+    "7eoi_A",
+    "7eol_A",
+    "7eom_A",
+    "7eon_A",
+    "7eoo_A",
+    "7eop_A",
+    "7kvv_D",
+    "7oav_A",
+    "7oax_A",
+    "7tda_A",
+    "7tdb_A",
+    "7tdc_A",
+    "7tzt_A",
+    "8eyu_B",
+    "8eyv_A",
+    "8eyw_B",
+    "8f0n_B",
+    "8f4o_A",
+    "8hb3_A",
+    "8i3z_A"
+   ],
+   "remove_val_ids": [
+    "1qd3_A",
+    "1yrj_A",
+    "2bee_A",
+    "2hol_A",
+    "3bnq_C",
+    "3wru_A",
+    "4b5r_A",
+    "4nyb_A",
+    "4p3s_A",
+    "4qk8_A",
+    "4qka_A",
+    "7eok_A",
+    "7kvt_B",
+    "7tzu_A"
+   ],
+   "n_train_left": 255,
+   "n_val_left": 29
+  },
+  "p70": {
+   "threshold": 0.7,
+   "remove_train_ids": [
+    "1aju_A",
+    "1akx_A",
+    "1arj_N",
+    "1fyp_A",
+    "1lc4_A",
+    "1nta_A",
+    "1ntb_A",
+    "1uts_B",
+    "1uud_B",
+    "2be0_A",
+    "2cky_A",
+    "2esi_A",
+    "2esj_A",
+    "2et4_A",
+    "2gis_A",
+    "2hoj_A",
+    "2hoo_A",
+    "2hop_A",
+    "2l8h_A",
+    "2m4q_1",
+    "2o3v_A",
+    "2ydh_A",
+    "2ygh_A",
+    "3b4b_A",
+    "3bnq_A",
+    "3bnr_A",
+    "3d2g_A",
+    "3d2v_A",
+    "3fu2_A",
+    "3gx3_A",
+    "3iqn_A",
+    "3k0j_E",
+    "3k1v_A",
+    "3s4p_A",
+    "3td1_A",
+    "4aob_A",
+    "4f8u_A",
+    "4f8v_A",
+    "4gpw_A",
+    "4gpx_A",
+    "4gpy_A",
+    "4k31_B",
+    "4k31_C",
+    "4k32_A",
+    "4kzd_R",
+    "4lx5_A",
+    "4lx6_A",
+    "4mgm_B",
+    "4nya_A",
+    "4nyg_A",
+    "4p20_A",
+    "4pdq_A",
+    "4q9q_R",
+    "4yb0_R",
+    "4zc7_A",
+    "4znp_A",
+    "5bjp_E",
+    "5btp_B",
+    "5fjc_A",
+    "5fk1_A",
+    "5fk2_A",
+    "5fk3_A",
+    "5fk5_A",
+    "5fkd_A",
+    "5fke_A",
+    "5fkf_A",
+    "5fkg_A",
+    "5fkh_A",
+    "5ob3_A",
+    "5ux3_A",
+    "5v9z_A",
+    "5xz1_A",
+    "5z1h_A",
+    "5z1i_A",
+    "5zei_A",
+    "5zej_A",
+    "6c63_A",
+    "6c64_A",
+    "6c65_A",
+    "6e1u_A",
+    "6e1v_A",
+    "6e1w_A",
+    "6e81_A",
+    "6e84_A",
+    "6n5k_A",
+    "6n5n_A",
+    "6n5o_A",
+    "6n5p_A",
+    "6n5q_A",
+    "6od9_A",
+    "6wtl_A",
+    "6wzr_A",
+    "6yl5_A",
+    "6ylb_A",
+    "6ymk_A",
+    "6yml_A",
+    "6ymm_A",
+    "7e9e_A",
+    "7edl_A",
+    "7edm_A",
+    "7elp_A",
+    "7eoi_A",
+    "7eol_A",
+    "7eom_A",
+    "7eon_A",
+    "7eoo_A",
+    "7eop_A",
+    "7kvv_D",
+    "7oav_A",
+    "7oax_A",
+    "7tda_A",
+    "7tdb_A",
+    "7tdc_A",
+    "7tzt_A",
+    "8eyu_B",
+    "8eyv_A",
+    "8eyw_B",
+    "8f0n_B",
+    "8f4o_A",
+    "8hb3_A",
+    "8i3z_A",
+    "8u5k_A",
+    "8u5p_A",
+    "8u5t_A",
+    "8u5z_A"
+   ],
+   "remove_val_ids": [
+    "1qd3_A",
+    "1yrj_A",
+    "2bee_A",
+    "2hol_A",
+    "3bnq_C",
+    "3wru_A",
+    "4b5r_A",
+    "4nyb_A",
+    "4p3s_A",
+    "4q9r_R",
+    "4qk8_A",
+    "4qka_A",
+    "5v0o_A",
+    "6e1s_A",
+    "6ymj_A",
+    "7eok_A",
+    "7kvt_B",
+    "7tzu_A"
+   ],
+   "n_train_left": 220,
+   "n_val_left": 25
+  },
+  "p60": {
+   "threshold": 0.6,
+   "remove_train_ids": [
+    "1aju_A",
+    "1akx_A",
+    "1arj_N",
+    "1ei2_A",
+    "1evv_A",
+    "1fyp_A",
+    "1i9v_A",
+    "1lc4_A",
+    "1nbk_A",
+    "1nta_A",
+    "1ntb_A",
+    "1tn1_A",
+    "1tn2_A",
+    "1uts_B",
+    "1uud_B",
+    "1yls_B",
+    "2au4_A",
+    "2be0_A",
+    "2cky_A",
+    "2esi_A",
+    "2esj_A",
+    "2et4_A",
+    "2gis_A",
+    "2hoj_A",
+    "2hoo_A",
+    "2hop_A",
+    "2kgp_A",
+    "2kxm_A",
+    "2l8h_A",
+    "2m4q_1",
+    "2miy_A",
+    "2mxs_A",
+    "2n0j_A",
+    "2nok_C",
+    "2o3v_A",
+    "2ydh_A",
+    "2ygh_A",
+    "2yie_Z",
+    "3b4b_A",
+    "3bnq_A",
+    "3bnr_A",
+    "3c44_A",
+    "3d2g_A",
+    "3d2v_A",
+    "3ds7_A",
+    "3fo4_A",
+    "3fo6_A",
+    "3fu2_A",
+    "3gca_A",
+    "3ger_A",
+    "3gog_A",
+    "3gx3_A",
+    "3iqn_A",
+    "3irw_R",
+    "3k0j_E",
+    "3k1v_A",
+    "3mum_R",
+    "3mut_R",
+    "3muv_R",
+    "3npn_A",
+    "3npq_A",
+    "3q50_A",
+    "3s4p_A",
+    "3td1_A",
+    "3tzr_A",
+    "4aob_A",
+    "4f8u_A",
+    "4f8v_A",
+    "4gpw_A",
+    "4gpx_A",
+    "4gpy_A",
+    "4k31_B",
+    "4k31_C",
+    "4k32_A",
+    "4kzd_R",
+    "4l81_A",
+    "4lx5_A",
+    "4lx6_A",
+    "4mgm_B",
+    "4nya_A",
+    "4nyg_A",
+    "4p20_A",
+    "4pdq_A",
+    "4q9q_R",
+    "4qk9_A",
+    "4qln_A",
+    "4qvi_B",
+    "4ts2_X",
+    "4xwf_A",
+    "4yb0_R",
+    "4yb1_R",
+    "4zc7_A",
+    "4znp_A",
+    "5bjp_E",
+    "5btp_B",
+    "5dh8_B",
+    "5fjc_A",
+    "5fk1_A",
+    "5fk2_A",
+    "5fk3_A",
+    "5fk5_A",
+    "5fkd_A",
+    "5fke_A",
+    "5fkf_A",
+    "5fkg_A",
+    "5fkh_A",
+    "5kpy_A",
+    "5ob3_A",
+    "5ux3_A",
+    "5v9z_A",
+    "5xz1_A",
+    "5z1h_A",
+    "5z1i_A",
+    "5zei_A",
+    "5zej_A",
+    "6az4_A",
+    "6c63_A",
+    "6c64_A",
+    "6c65_A",
+    "6db8_R",
+    "6e1u_A",
+    "6e1v_A",
+    "6e1w_A",
+    "6e81_A",
+    "6e84_A",
+    "6n5k_A",
+    "6n5n_A",
+    "6n5o_A",
+    "6n5p_A",
+    "6n5q_A",
+    "6od9_A",
+    "6p2h_A",
+    "6pq7_C",
+    "6uc7_B",
+    "6uc9_B",
+    "6up0_C",
+    "6v9d_B",
+    "6vui_A",
+    "6wtl_A",
+    "6wzr_A",
+    "6yl5_A",
+    "6ylb_A",
+    "6ymk_A",
+    "6yml_A",
+    "6ymm_A",
+    "7d81_A",
+    "7d82_A",
+    "7dwh_X",
+    "7e9e_A",
+    "7e9i_A",
+    "7edl_A",
+    "7edm_A",
+    "7elp_A",
+    "7eoi_A",
+    "7eol_A",
+    "7eom_A",
+    "7eon_A",
+    "7eoo_A",
+    "7eop_A",
+    "7fj0_A",
+    "7kvv_D",
+    "7oav_A",
+    "7oax_A",
+    "7tda_A",
+    "7tdb_A",
+    "7tdc_A",
+    "7tzt_A",
+    "8eyu_B",
+    "8eyv_A",
+    "8eyw_B",
+    "8f0n_B",
+    "8f4o_A",
+    "8hb3_A",
+    "8i3z_A",
+    "8i46_A",
+    "8u5k_A",
+    "8u5p_A",
+    "8u5t_A",
+    "8u5z_A"
+   ],
+   "remove_val_ids": [
+    "1qd3_A",
+    "1yrj_A",
+    "2bee_A",
+    "2hol_A",
+    "3bnq_C",
+    "3ges_A",
+    "3iwn_A",
+    "3wru_A",
+    "4b5r_A",
+    "4nyb_A",
+    "4p3s_A",
+    "4q9r_R",
+    "4qk8_A",
+    "4qka_A",
+    "4qlm_A",
+    "4xw7_A",
+    "5v0o_A",
+    "6e1s_A",
+    "6e8u_B",
+    "6uc8_B",
+    "6v9b_B",
+    "6ymj_A",
+    "7d7v_A",
+    "7eok_A",
+    "7kvt_B",
+    "7tzu_A",
+    "8i43_A",
+    "8i45_A"
+   ],
+   "n_train_left": 166,
+   "n_val_left": 15
+  },
+  "p50": {
+   "threshold": 0.5,
+   "remove_train_ids": [
+    "1aju_A",
+    "1akx_A",
+    "1arj_N",
+    "1eht_A",
+    "1ei2_A",
+    "1evv_A",
+    "1f27_A",
+    "1fyp_A",
+    "1i9v_A",
+    "1lc4_A",
+    "1nbk_A",
+    "1nta_A",
+    "1ntb_A",
+    "1raw_A",
+    "1tn1_A",
+    "1tn2_A",
+    "1tob_A",
+    "1uts_B",
+    "1uud_B",
+    "1xpf_A",
+    "1yls_B",
+    "2au4_A",
+    "2be0_A",
+    "2cky_A",
+    "2esi_A",
+    "2esj_A",
+    "2et4_A",
+    "2fcy_A",
+    "2gis_A",
+    "2hoj_A",
+    "2hoo_A",
+    "2hop_A",
+    "2kgp_A",
+    "2ktz_A",
+    "2kx8_A",
+    "2kxm_A",
+    "2l1v_A",
+    "2l8h_A",
+    "2l94_A",
+    "2m4q_1",
+    "2miy_A",
+    "2mxs_A",
+    "2n0j_A",
+    "2nok_B",
+    "2nok_C",
+    "2o3v_A",
+    "2quw_B",
+    "2qwy_A",
+    "2tra_A",
+    "2ydh_A",
+    "2ygh_A",
+    "2yie_X",
+    "2yie_Z",
+    "3b4b_A",
+    "3bnq_A",
+    "3bnr_A",
+    "3c44_A",
+    "3d2g_A",
+    "3d2v_A",
+    "3ds7_A",
+    "3e5c_A",
+    "3e5e_A",
+    "3e5f_A",
+    "3egz_B",
+    "3f2q_X",
+    "3f2t_X",
+    "3f2w_X",
+    "3f2x_X",
+    "3f2y_X",
+    "3f4e_X",
+    "3f4g_X",
+    "3fo4_A",
+    "3fo6_A",
+    "3fu2_A",
+    "3gca_A",
+    "3ger_A",
+    "3gog_A",
+    "3gx3_A",
+    "3iqn_A",
+    "3irw_R",
+    "3k0j_E",
+    "3k1v_A",
+    "3mum_R",
+    "3mur_R",
+    "3mut_R",
+    "3muv_R",
+    "3npn_A",
+    "3npq_A",
+    "3oxe_B",
+    "3q3z_V",
+    "3q50_A",
+    "3rkf_A",
+    "3s4p_A",
+    "3sd3_A",
+    "3ski_A",
+    "3skt_A",
+    "3skw_A",
+    "3skz_A",
+    "3slq_A",
+    "3sux_X",
+    "3td1_A",
+    "3tzr_A",
+    "3vrs_A",
+    "4aob_A",
+    "4f8u_A",
+    "4f8v_A",
+    "4frg_X",
+    "4gpw_A",
+    "4gpx_A",
+    "4gpy_A",
+    "4jf2_A",
+    "4k31_B",
+    "4k31_C",
+    "4k32_A",
+    "4kzd_R",
+    "4l81_A",
+    "4lvv_A",
+    "4lvx_A",
+    "4lvy_A",
+    "4lx5_A",
+    "4lx6_A",
+    "4mgm_B",
+    "4nya_A",
+    "4nyg_A",
+    "4p20_A",
+    "4p5j_A",
+    "4pcj_A",
+    "4pdq_A",
+    "4q9q_R",
+    "4qjh_C",
+    "4qk9_A",
+    "4qln_A",
+    "4qvi_B",
+    "4rzd_A",
+    "4ts2_X",
+    "4w90_C",
+    "4xwf_A",
+    "4y1i_A",
+    "4y1j_A",
+    "4y1m_B",
+    "4yb0_R",
+    "4yb1_R",
+    "4zc7_A",
+    "4znp_A",
+    "5bjp_E",
+    "5btp_B",
+    "5c45_X",
+    "5d5l_A",
+    "5d5l_D",
+    "5dh8_B",
+    "5fj1_C",
+    "5fjc_A",
+    "5fk1_A",
+    "5fk2_A",
+    "5fk3_A",
+    "5fk5_A",
+    "5fkd_A",
+    "5fke_A",
+    "5fkf_A",
+    "5fkg_A",
+    "5fkh_A",
+    "5kpy_A",
+    "5kx9_X",
+    "5lwj_A",
+    "5o69_A",
+    "5ob3_A",
+    "5t83_A",
+    "5ux3_A",
+    "5v9z_A",
+    "5vj9_A",
+    "5xz1_A",
+    "5z1h_A",
+    "5z1i_A",
+    "5zei_A",
+    "5zej_A",
+    "6az4_A",
+    "6bfb_X",
+    "6c63_A",
+    "6c64_A",
+    "6c65_A",
+    "6cc1_A",
+    "6cc3_A",
+    "6ck4_A",
+    "6ck5_A",
+    "6db8_R",
+    "6dlq_A",
+    "6dlr_A",
+    "6dls_A",
+    "6dlt_A",
+    "6dmc_A",
+    "6dmd_A",
+    "6dme_A",
+    "6dn1_X",
+    "6dn2_X",
+    "6dn3_X",
+    "6e1u_A",
+    "6e1v_A",
+    "6e1w_A",
+    "6e81_A",
+    "6e84_A",
+    "6e8t_D",
+    "6fz0_A",
+    "6gzk_A",
+    "6gzr_A",
+    "6hbt_A",
+    "6hc5_A",
+    "6las_A",
+    "6lau_A",
+    "6lax_A",
+    "6n5k_A",
+    "6n5n_A",
+    "6n5o_A",
+    "6n5p_A",
+    "6n5q_A",
+    "6od9_A",
+    "6p2h_A",
+    "6pq7_C",
+    "6q57_A",
+    "6tf1_A",
+    "6tf2_A",
+    "6tf3_A",
+    "6tfe_A",
+    "6tff_A",
+    "6tfg_A",
+    "6u8f_A",
+    "6uc7_B",
+    "6uc9_B",
+    "6up0_C",
+    "6v9d_B",
+    "6vui_A",
+    "6wtl_A",
+    "6wzr_A",
+    "6xkn_A",
+    "6xko_A",
+    "6yl5_A",
+    "6ylb_A",
+    "6ymk_A",
+    "6yml_A",
+    "6ymm_A",
+    "7d7w_A",
+    "7d7x_A",
+    "7d7z_A",
+    "7d81_A",
+    "7d82_A",
+    "7dwh_X",
+    "7e9e_A",
+    "7e9i_A",
+    "7edl_A",
+    "7edm_A",
+    "7elp_A",
+    "7eoi_A",
+    "7eol_A",
+    "7eom_A",
+    "7eon_A",
+    "7eoo_A",
+    "7eop_A",
+    "7fj0_A",
+    "7kvv_D",
+    "7mkt_A",
+    "7oav_A",
+    "7oax_A",
+    "7tda_A",
+    "7tdb_A",
+    "7tdc_A",
+    "7tzt_A",
+    "7u0y_R",
+    "7wib_V",
+    "7wif_V",
+    "7wii_V",
+    "8d28_B",
+    "8d2a_A",
+    "8d5l_A",
+    "8d5o_A",
+    "8eyu_B",
+    "8eyv_A",
+    "8eyw_B",
+    "8f0n_B",
+    "8f4o_A",
+    "8gxb_A",
+    "8gxc_A",
+    "8hb3_A",
+    "8hb8_A",
+    "8i3z_A",
+    "8i44_A",
+    "8i46_A",
+    "8u5k_A",
+    "8u5p_A",
+    "8u5t_A",
+    "8u5z_A"
+   ],
+   "remove_val_ids": [
+    "1o15_A",
+    "1qd3_A",
+    "1yrj_A",
+    "2bee_A",
+    "2ho7_A",
+    "2hol_A",
+    "2lwk_A",
+    "3bnq_C",
+    "3f30_X",
+    "3ges_A",
+    "3iwn_A",
+    "3skl_A",
+    "3skr_A",
+    "3wru_A",
+    "4b5r_A",
+    "4nyb_A",
+    "4p3s_A",
+    "4q9r_R",
+    "4qk8_A",
+    "4qka_A",
+    "4qlm_A",
+    "4rge_B",
+    "4w92_C",
+    "4xw7_A",
+    "5v0o_A",
+    "6e1s_A",
+    "6e8u_B",
+    "6laz_A",
+    "6tf0_A",
+    "6tfh_A",
+    "6uc8_B",
+    "6v9b_B",
+    "6ymj_A",
+    "7d7v_A",
+    "7eok_A",
+    "7kvt_B",
+    "7tzu_A",
+    "8i43_A",
+    "8i45_A"
+   ],
+   "n_train_left": 56,
+   "n_val_left": 4
+  }
+ },
+ "test_redundancy": {
+  "p90": [
+   [
+    "1q8n_A",
+    "1f1t_A",
+    1.0
+   ],
+   [
+    "4f8u_B",
+    "2pwt_A",
+    1.0
+   ],
+   [
+    "2gdi_X",
+    "7tzr_X",
+    1.0
+   ]
+  ],
+  "p80": [
+   [
+    "1q8n_A",
+    "1f1t_A",
+    1.0
+   ],
+   [
+    "4f8u_B",
+    "2pwt_A",
+    1.0
+   ],
+   [
+    "2gdi_X",
+    "7tzr_X",
+    1.0
+   ]
+  ],
+  "p70": [
+   [
+    "1q8n_A",
+    "1f1t_A",
+    1.0
+   ],
+   [
+    "4f8u_B",
+    "2pwt_A",
+    1.0
+   ],
+   [
+    "2gdi_X",
+    "7tzr_X",
+    1.0
+   ]
+  ],
+  "p60": [
+   [
+    "1q8n_A",
+    "1f1t_A",
+    1.0
+   ],
+   [
+    "4f8u_B",
+    "2pwt_A",
+    1.0
+   ],
+   [
+    "2gdi_X",
+    "7tzr_X",
+    1.0
+   ]
+  ],
+  "p50": [
+   [
+    "1q8n_A",
+    "1f1t_A",
+    1.0
+   ],
+   [
+    "4f8u_B",
+    "2pwt_A",
+    1.0
+   ],
+   [
+    "2gdi_X",
+    "7tzr_X",
+    1.0
+   ]
+  ]
+ },
+ "per_chain_train": {
+  "8r8p_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5t83_A": {
+   "pid": 0.5513,
+   "to": "7tzr_X"
+  },
+  "6e81_A": {
+   "pid": 1.0,
+   "to": "5bjo_E"
+  },
+  "3egz_B": {
+   "pid": 0.5538,
+   "to": "3d2x_A"
+  },
+  "3skz_A": {
+   "pid": 0.5758,
+   "to": "7kvu_G"
+  },
+  "8sx6_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "1lc4_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "7eol_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "3f2q_X": {
+   "pid": 0.514,
+   "to": "6wtr_A"
+  },
+  "4frg_X": {
+   "pid": 0.5882,
+   "to": "4pqv_A"
+  },
+  "6dlt_A": {
+   "pid": 0.5412,
+   "to": "7uq6_B"
+  },
+  "1i9v_A": {
+   "pid": 0.6351,
+   "to": "7eqj_B"
+  },
+  "7oax_A": {
+   "pid": 1.0,
+   "to": "7oa3_A"
+  },
+  "4aob_A": {
+   "pid": 0.9149,
+   "to": "7eaf_A"
+  },
+  "6dlr_A": {
+   "pid": 0.5412,
+   "to": "7uq6_B"
+  },
+  "6qiv_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3td1_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "7u0y_R": {
+   "pid": 0.5909,
+   "to": "3d2x_A"
+  },
+  "5ux3_A": {
+   "pid": 0.7273,
+   "to": "8hb1_A"
+  },
+  "6tf3_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "6va3_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6g7z_A": {
+   "pid": 0.4516,
+   "to": "6wtr_A"
+  },
+  "1arj_N": {
+   "pid": 1.0,
+   "to": "1uui_B"
+  },
+  "3f4g_X": {
+   "pid": 0.5333,
+   "to": "7elq_A"
+  },
+  "2kgp_A": {
+   "pid": 0.64,
+   "to": "1pbr_A"
+  },
+  "2kxm_A": {
+   "pid": 0.6364,
+   "to": "2juk_A"
+  },
+  "6yml_A": {
+   "pid": 0.7,
+   "to": "7d12_A"
+  },
+  "4kzd_R": {
+   "pid": 0.7681,
+   "to": "7l0z_G"
+  },
+  "5ob3_A": {
+   "pid": 1.0,
+   "to": "7l0z_G"
+  },
+  "3q3z_V": {
+   "pid": 0.5946,
+   "to": "7kga_A"
+  },
+  "5vjb_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6u6j_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6ck5_A": {
+   "pid": 0.5278,
+   "to": "6wtr_A"
+  },
+  "4w90_C": {
+   "pid": 0.5854,
+   "to": "7kvu_G"
+  },
+  "8eyv_A": {
+   "pid": 0.9556,
+   "to": "8f0n_A"
+  },
+  "4yb0_R": {
+   "pid": 1.0,
+   "to": "4yaz_R"
+  },
+  "7u88_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "7u87_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2esj_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "7d7z_A": {
+   "pid": 0.5882,
+   "to": "6wzs_B"
+  },
+  "3c44_A": {
+   "pid": 0.6087,
+   "to": "430d_A"
+  },
+  "6dmc_A": {
+   "pid": 0.5882,
+   "to": "7uq6_B"
+  },
+  "4k31_C": {
+   "pid": 0.7727,
+   "to": "1pbr_A"
+  },
+  "4gpy_A": {
+   "pid": 0.9048,
+   "to": "2pwt_A"
+  },
+  "7eop_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "4k31_B": {
+   "pid": 0.7727,
+   "to": "1pbr_A"
+  },
+  "5z1h_A": {
+   "pid": 0.8947,
+   "to": "2pwt_A"
+  },
+  "6tf1_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "3ger_A": {
+   "pid": 0.6119,
+   "to": "1y26_X"
+  },
+  "2cky_A": {
+   "pid": 1.0,
+   "to": "3d2x_A"
+  },
+  "3npq_A": {
+   "pid": 0.6444,
+   "to": "7elq_A"
+  },
+  "6hc5_A": {
+   "pid": 0.5294,
+   "to": "7d12_A"
+  },
+  "2et4_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "1yls_B": {
+   "pid": 0.6897,
+   "to": "1uui_B"
+  },
+  "3e5c_A": {
+   "pid": 0.5192,
+   "to": "6wzs_B"
+  },
+  "6vui_A": {
+   "pid": 0.697,
+   "to": "7rex_A"
+  },
+  "4p20_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "5xz1_A": {
+   "pid": 0.8095,
+   "to": "2pwt_A"
+  },
+  "7edm_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "7oav_A": {
+   "pid": 1.0,
+   "to": "7oa3_A"
+  },
+  "7tdc_A": {
+   "pid": 0.9872,
+   "to": "7td7_A"
+  },
+  "1eht_A": {
+   "pid": 0.5862,
+   "to": "1uui_B"
+  },
+  "5d5l_A": {
+   "pid": 0.5789,
+   "to": "3gx2_A"
+  },
+  "8swg_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2yie_X": {
+   "pid": 0.5,
+   "to": "7eog_A"
+  },
+  "6ymk_A": {
+   "pid": 0.7,
+   "to": "7d12_A"
+  },
+  "8i44_A": {
+   "pid": 0.5789,
+   "to": "8hb1_A"
+  },
+  "6hbt_A": {
+   "pid": 0.5294,
+   "to": "7d12_A"
+  },
+  "2nok_B": {
+   "pid": 0.55,
+   "to": "379d_B"
+  },
+  "3q50_A": {
+   "pid": 0.697,
+   "to": "7rex_A"
+  },
+  "8f0n_B": {
+   "pid": 1.0,
+   "to": "8f0n_A"
+  },
+  "2ydh_A": {
+   "pid": 0.9787,
+   "to": "3gx2_A"
+  },
+  "6ymm_A": {
+   "pid": 0.7,
+   "to": "7d12_A"
+  },
+  "6ck4_A": {
+   "pid": 0.5366,
+   "to": "7kvu_G"
+  },
+  "8gxb_A": {
+   "pid": 0.5417,
+   "to": "9bun_C"
+  },
+  "4yb1_R": {
+   "pid": 0.6145,
+   "to": "4yaz_R"
+  },
+  "2au4_A": {
+   "pid": 0.6286,
+   "to": "5bjo_E"
+  },
+  "5fk3_A": {
+   "pid": 0.9681,
+   "to": "7eaf_A"
+  },
+  "2hoj_A": {
+   "pid": 0.9872,
+   "to": "7td7_A"
+  },
+  "6ylb_A": {
+   "pid": 0.7,
+   "to": "7d12_A"
+  },
+  "3sd3_A": {
+   "pid": 0.5733,
+   "to": "7eqj_B"
+  },
+  "3ds7_A": {
+   "pid": 0.6269,
+   "to": "4yaz_R"
+  },
+  "1tn2_A": {
+   "pid": 0.625,
+   "to": "7eqj_B"
+  },
+  "4qvi_B": {
+   "pid": 0.6267,
+   "to": "7eqj_B"
+  },
+  "6jji_B": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2mxs_A": {
+   "pid": 0.6364,
+   "to": "2juk_A"
+  },
+  "3f2x_X": {
+   "pid": 0.514,
+   "to": "6wtr_A"
+  },
+  "3mij_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6las_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "2hoo_A": {
+   "pid": 1.0,
+   "to": "7td7_A"
+  },
+  "4nyg_A": {
+   "pid": 0.9872,
+   "to": "7td7_A"
+  },
+  "6c8k_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5fk1_A": {
+   "pid": 0.9468,
+   "to": "7eaf_A"
+  },
+  "6bfb_X": {
+   "pid": 0.5333,
+   "to": "7elq_A"
+  },
+  "4f8u_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "1y90_B": {
+   "pid": 0.4762,
+   "to": "2pwt_A"
+  },
+  "2quw_B": {
+   "pid": 0.5614,
+   "to": "4pqv_A"
+  },
+  "4k32_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "5o69_A": {
+   "pid": 0.5897,
+   "to": "7eog_A"
+  },
+  "6lax_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "4meg_B": {
+   "pid": 0.4215,
+   "to": "6wtr_A"
+  },
+  "5fkh_A": {
+   "pid": 0.9574,
+   "to": "7eaf_A"
+  },
+  "2ygh_A": {
+   "pid": 0.9894,
+   "to": "3gx2_A"
+  },
+  "4y1m_B": {
+   "pid": 0.5116,
+   "to": "7uz0_A"
+  },
+  "6c8e_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "1hr2_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2miy_A": {
+   "pid": 0.6042,
+   "to": "7eog_A"
+  },
+  "5fkd_A": {
+   "pid": 0.9468,
+   "to": "7eaf_A"
+  },
+  "6c64_A": {
+   "pid": 0.7742,
+   "to": "5v3f_A"
+  },
+  "5fke_A": {
+   "pid": 0.9468,
+   "to": "7eaf_A"
+  },
+  "3gx3_A": {
+   "pid": 1.0,
+   "to": "3gx2_A"
+  },
+  "2m4q_1": {
+   "pid": 1.0,
+   "to": "1pbr_A"
+  },
+  "2l8h_A": {
+   "pid": 1.0,
+   "to": "1uui_B"
+  },
+  "5lwj_A": {
+   "pid": 0.5758,
+   "to": "1f1t_A"
+  },
+  "1evv_A": {
+   "pid": 0.625,
+   "to": "7eqj_B"
+  },
+  "4gpw_A": {
+   "pid": 0.8571,
+   "to": "2pwt_A"
+  },
+  "7eoi_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "5fkg_A": {
+   "pid": 0.9574,
+   "to": "7eaf_A"
+  },
+  "6c8o_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2nok_C": {
+   "pid": 0.6,
+   "to": "7d12_A"
+  },
+  "3f2t_X": {
+   "pid": 0.514,
+   "to": "6wtr_A"
+  },
+  "2tra_A": {
+   "pid": 0.5882,
+   "to": "3d2x_A"
+  },
+  "1f27_A": {
+   "pid": 0.5263,
+   "to": "2pwt_A"
+  },
+  "5d5l_D": {
+   "pid": 0.5789,
+   "to": "3gx2_A"
+  },
+  "4lvv_A": {
+   "pid": 0.56,
+   "to": "7eqj_B"
+  },
+  "2a04_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "4pcj_A": {
+   "pid": 0.5484,
+   "to": "364d_C"
+  },
+  "2be0_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "5fj1_C": {
+   "pid": 0.5909,
+   "to": "2juk_A"
+  },
+  "8i3z_A": {
+   "pid": 1.0,
+   "to": "8hb1_A"
+  },
+  "6tfg_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "7eoo_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "6yl5_A": {
+   "pid": 0.7,
+   "to": "7d12_A"
+  },
+  "3f4e_X": {
+   "pid": 0.5333,
+   "to": "7elq_A"
+  },
+  "6dlq_A": {
+   "pid": 0.5412,
+   "to": "7uq6_B"
+  },
+  "3f2y_X": {
+   "pid": 0.514,
+   "to": "6wtr_A"
+  },
+  "3sux_X": {
+   "pid": 0.5882,
+   "to": "7uq6_B"
+  },
+  "4mgm_B": {
+   "pid": 0.746,
+   "to": "7eqj_B"
+  },
+  "7kuk_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "4rzd_A": {
+   "pid": 0.5529,
+   "to": "7uq6_B"
+  },
+  "6u8f_A": {
+   "pid": 0.5,
+   "to": "2mis_A"
+  },
+  "6dls_A": {
+   "pid": 0.5412,
+   "to": "7uq6_B"
+  },
+  "5bjp_E": {
+   "pid": 1.0,
+   "to": "5bjo_E"
+  },
+  "5v9z_A": {
+   "pid": 0.7826,
+   "to": "2mis_A"
+  },
+  "5z1i_A": {
+   "pid": 0.8571,
+   "to": "2pwt_A"
+  },
+  "7eom_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "8d2a_A": {
+   "pid": 0.5926,
+   "to": "1pbr_A"
+  },
+  "7d82_A": {
+   "pid": 0.6222,
+   "to": "7elq_A"
+  },
+  "8uiw_N": {
+   "pid": 0.3802,
+   "to": "6wtr_A"
+  },
+  "4p5j_A": {
+   "pid": 0.5422,
+   "to": "7eaf_A"
+  },
+  "5vcf_A": {
+   "pid": 0.4545,
+   "to": "379d_B"
+  },
+  "3iqn_A": {
+   "pid": 0.9787,
+   "to": "3gx2_A"
+  },
+  "1nbk_A": {
+   "pid": 0.6897,
+   "to": "1uui_B"
+  },
+  "4l81_A": {
+   "pid": 0.6265,
+   "to": "4yaz_R"
+  },
+  "3k1v_A": {
+   "pid": 0.7,
+   "to": "7rex_A"
+  },
+  "8d5o_A": {
+   "pid": 0.5926,
+   "to": "1pbr_A"
+  },
+  "8hba_A": {
+   "pid": 0.4792,
+   "to": "9bun_C"
+  },
+  "7kuo_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "7eon_A": {
+   "pid": 1.0,
+   "to": "7eog_A"
+  },
+  "8u5p_A": {
+   "pid": 0.7742,
+   "to": "5v3f_A"
+  },
+  "6up0_C": {
+   "pid": 0.6774,
+   "to": "5v3f_A"
+  },
+  "4q9q_R": {
+   "pid": 0.7681,
+   "to": "7l0z_G"
+  },
+  "7tzt_A": {
+   "pid": 1.0,
+   "to": "7td7_A"
+  },
+  "5fk5_A": {
+   "pid": 0.9468,
+   "to": "7eaf_A"
+  },
+  "1tob_A": {
+   "pid": 0.5926,
+   "to": "1uui_B"
+  },
+  "5fk2_A": {
+   "pid": 0.9468,
+   "to": "7eaf_A"
+  },
+  "3fo6_A": {
+   "pid": 0.6119,
+   "to": "1y26_X"
+  },
+  "4zc7_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "1tn1_A": {
+   "pid": 0.625,
+   "to": "7eqj_B"
+  },
+  "6db8_R": {
+   "pid": 0.6,
+   "to": "7eqj_B"
+  },
+  "4lx5_A": {
+   "pid": 0.9155,
+   "to": "1y26_X"
+  },
+  "8hb8_A": {
+   "pid": 0.5111,
+   "to": "7elq_A"
+  },
+  "7wii_V": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "3gca_A": {
+   "pid": 0.697,
+   "to": "7rex_A"
+  },
+  "6e1w_A": {
+   "pid": 0.7419,
+   "to": "7rex_A"
+  },
+  "3e5e_A": {
+   "pid": 0.5192,
+   "to": "6wzs_B"
+  },
+  "8d28_B": {
+   "pid": 0.5926,
+   "to": "1pbr_A"
+  },
+  "5vj9_A": {
+   "pid": 0.5,
+   "to": "7d12_A"
+  },
+  "4pdq_A": {
+   "pid": 0.9048,
+   "to": "2pwt_A"
+  },
+  "6q57_A": {
+   "pid": 0.56,
+   "to": "7eqj_B"
+  },
+  "2gis_A": {
+   "pid": 0.9787,
+   "to": "3gx2_A"
+  },
+  "3fu2_A": {
+   "pid": 0.7188,
+   "to": "7rex_A"
+  },
+  "4qk9_A": {
+   "pid": 0.6466,
+   "to": "6wtr_A"
+  },
+  "2l94_A": {
+   "pid": 0.5789,
+   "to": "1q8n_A"
+  },
+  "7kum_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3vrs_A": {
+   "pid": 0.5192,
+   "to": "6wzs_B"
+  },
+  "3v7e_C": {
+   "pid": 0.4355,
+   "to": "6wtr_A"
+  },
+  "6dmd_A": {
+   "pid": 0.5882,
+   "to": "7uq6_B"
+  },
+  "6uet_A": {
+   "pid": 0.4622,
+   "to": "6wtr_A"
+  },
+  "5ued_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5uee_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6az4_A": {
+   "pid": 0.6538,
+   "to": "2mis_A"
+  },
+  "8eyw_B": {
+   "pid": 0.9592,
+   "to": "8f0n_A"
+  },
+  "6tfe_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "2l1v_A": {
+   "pid": 0.5667,
+   "to": "8hb1_B"
+  },
+  "3rkf_A": {
+   "pid": 0.597,
+   "to": "4yaz_R"
+  },
+  "6pq7_C": {
+   "pid": 0.6129,
+   "to": "5v3f_A"
+  },
+  "3bnr_A": {
+   "pid": 0.8095,
+   "to": "2pwt_A"
+  },
+  "1fuf_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5zei_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "5zej_A": {
+   "pid": 0.7619,
+   "to": "2pwt_A"
+  },
+  "8i46_A": {
+   "pid": 0.6316,
+   "to": "8hb1_A"
+  },
+  "6uc7_B": {
+   "pid": 0.6119,
+   "to": "1y26_X"
+  },
+  "7d81_A": {
+   "pid": 0.6222,
+   "to": "7elq_A"
+  },
+  "1n7b_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6e1v_A": {
+   "pid": 0.7667,
+   "to": "7rex_A"
+  },
+  "6n5n_A": {
+   "pid": 0.9677,
+   "to": "6wtr_A"
+  },
+  "5fjc_A": {
+   "pid": 0.9462,
+   "to": "7eaf_A"
+  },
+  "8f4o_A": {
+   "pid": 0.9583,
+   "to": "7td7_A"
+  },
+  "3slq_A": {
+   "pid": 0.5758,
+   "to": "7kvu_G"
+  },
+  "6e84_A": {
+   "pid": 1.0,
+   "to": "5bjo_E"
+  },
+  "6gzr_A": {
+   "pid": 0.5417,
+   "to": "6wzs_B"
+  },
+  "3d2g_A": {
+   "pid": 1.0,
+   "to": "3d2x_A"
+  },
+  "6xkn_A": {
+   "pid": 0.5422,
+   "to": "4yaz_R"
+  },
+  "8d5l_A": {
+   "pid": 0.5926,
+   "to": "1pbr_A"
+  },
+  "7kvv_D": {
+   "pid": 1.0,
+   "to": "7kvu_G"
+  },
+  "1xpf_A": {
+   "pid": 0.55,
+   "to": "2tob_A"
+  },
+  "3irw_R": {
+   "pid": 0.6145,
+   "to": "4yaz_R"
+  },
+  "3s4p_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "6od9_A": {
+   "pid": 0.9833,
+   "to": "6wzs_B"
+  },
+  "3f2w_X": {
+   "pid": 0.514,
+   "to": "6wtr_A"
+  },
+  "6wtl_A": {
+   "pid": 0.9756,
+   "to": "6wtr_A"
+  },
+  "4nya_A": {
+   "pid": 1.0,
+   "to": "7tzr_X"
+  },
+  "3fo4_A": {
+   "pid": 0.6508,
+   "to": "1y26_X"
+  },
+  "7u8a_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "4qjh_C": {
+   "pid": 0.5769,
+   "to": "1uui_B"
+  },
+  "7elp_A": {
+   "pid": 1.0,
+   "to": "7elq_A"
+  },
+  "7tdb_A": {
+   "pid": 0.9872,
+   "to": "7td7_A"
+  },
+  "7e9e_A": {
+   "pid": 0.7419,
+   "to": "7rex_A"
+  },
+  "8sy1_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6xko_A": {
+   "pid": 0.5385,
+   "to": "7td7_A"
+  },
+  "6dn1_X": {
+   "pid": 0.5556,
+   "to": "7elq_A"
+  },
+  "6u8u_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "4gpx_A": {
+   "pid": 0.8571,
+   "to": "2pwt_A"
+  },
+  "5krg_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6tff_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "2n0j_A": {
+   "pid": 0.6364,
+   "to": "2juk_A"
+  },
+  "2esi_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "8u5z_A": {
+   "pid": 0.7419,
+   "to": "5v3f_A"
+  },
+  "3mum_R": {
+   "pid": 0.6145,
+   "to": "4yaz_R"
+  },
+  "4lx6_A": {
+   "pid": 0.9014,
+   "to": "1y26_X"
+  },
+  "6n5q_A": {
+   "pid": 0.9677,
+   "to": "6wtr_A"
+  },
+  "6lau_A": {
+   "pid": 0.5556,
+   "to": "7elq_A"
+  },
+  "4y1i_A": {
+   "pid": 0.561,
+   "to": "7kvu_G"
+  },
+  "7a3y_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6xrq_B": {
+   "pid": 0.0,
+   "to": null
+  },
+  "1n7a_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5dh8_B": {
+   "pid": 0.6842,
+   "to": "6ez0_A"
+  },
+  "3muv_R": {
+   "pid": 0.6145,
+   "to": "4yaz_R"
+  },
+  "4qln_A": {
+   "pid": 0.6068,
+   "to": "6wtr_A"
+  },
+  "1ntb_A": {
+   "pid": 0.7273,
+   "to": "1pbr_A"
+  },
+  "1nta_A": {
+   "pid": 0.7273,
+   "to": "1pbr_A"
+  },
+  "5xi1_S": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3tzr_A": {
+   "pid": 0.6,
+   "to": "379d_B"
+  },
+  "5kx9_X": {
+   "pid": 0.5111,
+   "to": "7elq_A"
+  },
+  "3mut_R": {
+   "pid": 0.6024,
+   "to": "4yaz_R"
+  },
+  "1uud_B": {
+   "pid": 1.0,
+   "to": "1uui_B"
+  },
+  "3mur_R": {
+   "pid": 0.5904,
+   "to": "4yaz_R"
+  },
+  "4jf2_A": {
+   "pid": 0.5526,
+   "to": "3gx2_A"
+  },
+  "6p2h_A": {
+   "pid": 0.6029,
+   "to": "7kvu_G"
+  },
+  "6e8t_D": {
+   "pid": 0.5806,
+   "to": "5v3f_A"
+  },
+  "1fyp_A": {
+   "pid": 0.963,
+   "to": "1pbr_A"
+  },
+  "6c63_A": {
+   "pid": 0.7742,
+   "to": "5v3f_A"
+  },
+  "4lvx_A": {
+   "pid": 0.56,
+   "to": "7eqj_B"
+  },
+  "1aju_A": {
+   "pid": 0.9655,
+   "to": "1uui_B"
+  },
+  "3bnq_A": {
+   "pid": 0.8095,
+   "to": "2pwt_A"
+  },
+  "4ts2_X": {
+   "pid": 0.6857,
+   "to": "5bjo_E"
+  },
+  "6n5k_A": {
+   "pid": 0.9758,
+   "to": "6wtr_A"
+  },
+  "8gxc_A": {
+   "pid": 0.5417,
+   "to": "9bun_C"
+  },
+  "6dn2_X": {
+   "pid": 0.5111,
+   "to": "7elq_A"
+  },
+  "4f8v_A": {
+   "pid": 1.0,
+   "to": "2pwt_A"
+  },
+  "2hop_A": {
+   "pid": 0.9868,
+   "to": "7td7_A"
+  },
+  "6cc1_A": {
+   "pid": 0.5513,
+   "to": "7tzr_X"
+  },
+  "3e5f_A": {
+   "pid": 0.5192,
+   "to": "6wzs_B"
+  },
+  "6c8m_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "7tda_A": {
+   "pid": 0.9872,
+   "to": "7td7_A"
+  },
+  "1akx_A": {
+   "pid": 0.9655,
+   "to": "1uui_B"
+  },
+  "7edl_A": {
+   "pid": 0.9048,
+   "to": "2pwt_A"
+  },
+  "3b4b_A": {
+   "pid": 0.75,
+   "to": "379d_B"
+  },
+  "5kpy_A": {
+   "pid": 0.6,
+   "to": "6wzs_B"
+  },
+  "7kun_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "8uta_N": {
+   "pid": 0.439,
+   "to": "6wtr_A"
+  },
+  "7wib_V": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "7d7x_A": {
+   "pid": 0.5882,
+   "to": "6wzs_B"
+  },
+  "7mkt_A": {
+   "pid": 0.55,
+   "to": "2tob_A"
+  },
+  "2kx8_A": {
+   "pid": 0.5789,
+   "to": "7rwr_A"
+  },
+  "1ei2_A": {
+   "pid": 0.64,
+   "to": "1pbr_A"
+  },
+  "6fz0_A": {
+   "pid": 0.5106,
+   "to": "7eog_A"
+  },
+  "3oxe_B": {
+   "pid": 0.5493,
+   "to": "1y26_X"
+  },
+  "6dme_A": {
+   "pid": 0.5882,
+   "to": "7uq6_B"
+  },
+  "5vci_A": {
+   "pid": 0.4545,
+   "to": "379d_B"
+  },
+  "4xwf_A": {
+   "pid": 0.6333,
+   "to": "6wzs_B"
+  },
+  "4y1j_A": {
+   "pid": 0.561,
+   "to": "7kvu_G"
+  },
+  "1ykv_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "7wif_V": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "8cf2_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2yie_Z": {
+   "pid": 0.6071,
+   "to": "4pqv_A"
+  },
+  "2ktz_A": {
+   "pid": 0.5143,
+   "to": "1ddy_A"
+  },
+  "1raw_A": {
+   "pid": 0.5833,
+   "to": "7elq_A"
+  },
+  "2fcy_A": {
+   "pid": 0.5,
+   "to": "7d12_A"
+  },
+  "6c65_A": {
+   "pid": 0.7742,
+   "to": "5v3f_A"
+  },
+  "6cc3_A": {
+   "pid": 0.5488,
+   "to": "7kvu_G"
+  },
+  "2o3v_A": {
+   "pid": 0.8095,
+   "to": "2pwt_A"
+  },
+  "7d7w_A": {
+   "pid": 0.5882,
+   "to": "6wzs_B"
+  },
+  "7fj0_A": {
+   "pid": 0.6,
+   "to": "379d_B"
+  },
+  "5btp_B": {
+   "pid": 0.9833,
+   "to": "6wzs_B"
+  },
+  "6n5o_A": {
+   "pid": 0.9516,
+   "to": "6wtr_A"
+  },
+  "5fkf_A": {
+   "pid": 0.9574,
+   "to": "7eaf_A"
+  },
+  "6n5p_A": {
+   "pid": 0.9758,
+   "to": "6wtr_A"
+  },
+  "3ski_A": {
+   "pid": 0.5758,
+   "to": "7kvu_G"
+  },
+  "6e1u_A": {
+   "pid": 0.7419,
+   "to": "7rex_A"
+  },
+  "8hb3_A": {
+   "pid": 1.0,
+   "to": "8hb1_A"
+  },
+  "3npn_A": {
+   "pid": 0.6444,
+   "to": "7elq_A"
+  },
+  "8u5k_A": {
+   "pid": 0.7742,
+   "to": "5v3f_A"
+  },
+  "8sx5_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "2qwy_A": {
+   "pid": 0.5714,
+   "to": "8f0n_A"
+  },
+  "5v0h_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "4znp_A": {
+   "pid": 0.7667,
+   "to": "6wzs_B"
+  },
+  "6c8l_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6uc9_B": {
+   "pid": 0.6119,
+   "to": "1y26_X"
+  },
+  "6v9d_B": {
+   "pid": 0.6429,
+   "to": "5bjo_E"
+  },
+  "6hmo_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3gog_A": {
+   "pid": 0.6,
+   "to": "1y26_X"
+  },
+  "1yls_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3skt_A": {
+   "pid": 0.5469,
+   "to": "1y26_X"
+  },
+  "5c45_X": {
+   "pid": 0.5333,
+   "to": "7elq_A"
+  },
+  "4kqy_A": {
+   "pid": 0.479,
+   "to": "6wtr_A"
+  },
+  "8r62_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3k0j_E": {
+   "pid": 0.9615,
+   "to": "7td7_A"
+  },
+  "1uts_B": {
+   "pid": 1.0,
+   "to": "1uui_B"
+  },
+  "4lvy_A": {
+   "pid": 0.56,
+   "to": "7eqj_B"
+  },
+  "8eyu_B": {
+   "pid": 0.9556,
+   "to": "8f0n_A"
+  },
+  "6gzk_A": {
+   "pid": 0.5417,
+   "to": "6wzs_B"
+  },
+  "8vaw_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "3skw_A": {
+   "pid": 0.5469,
+   "to": "1y26_X"
+  },
+  "7edt_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "5v1l_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "7dwh_X": {
+   "pid": 0.6053,
+   "to": "1q8n_A"
+  },
+  "8u5t_A": {
+   "pid": 0.7419,
+   "to": "5v3f_A"
+  },
+  "6dn3_X": {
+   "pid": 0.5333,
+   "to": "7elq_A"
+  },
+  "3d2v_A": {
+   "pid": 1.0,
+   "to": "3d2x_A"
+  },
+  "7e9i_A": {
+   "pid": 0.697,
+   "to": "7rex_A"
+  },
+  "6tf2_A": {
+   "pid": 0.5778,
+   "to": "7elq_A"
+  },
+  "1zz5_A": {
+   "pid": 0.0,
+   "to": null
+  },
+  "6wzr_A": {
+   "pid": 0.9833,
+   "to": "6wzs_B"
+  }
+ }
+}

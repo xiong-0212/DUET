@@ -1,0 +1,128 @@
+{
+ "remove_train_ids": [
+  "1arj_N",
+  "1lc4_A",
+  "1uts_B",
+  "1uud_B",
+  "2be0_A",
+  "2cky_A",
+  "2esj_A",
+  "2et4_A",
+  "2l8h_A",
+  "2m4q_1",
+  "3d2g_A",
+  "3d2v_A",
+  "3gx3_A",
+  "3s4p_A",
+  "4f8v_A",
+  "4nya_A",
+  "4p20_A",
+  "4yb0_R",
+  "5ob3_A",
+  "7elp_A",
+  "7eol_A",
+  "7eom_A",
+  "7eon_A",
+  "7eoo_A",
+  "7eop_A",
+  "7kvv_D",
+  "7oav_A",
+  "7oax_A",
+  "8f0n_B",
+  "8hb3_A",
+  "8i3z_A"
+ ],
+ "leak_map": {
+  "2pwt_A": [
+   "1lc4_A",
+   "2esj_A",
+   "2et4_A",
+   "4p20_A",
+   "2be0_A",
+   "3s4p_A",
+   "4f8v_A"
+  ],
+  "4f8u_B": [
+   "1lc4_A",
+   "2esj_A",
+   "2et4_A",
+   "4p20_A",
+   "2be0_A",
+   "3s4p_A",
+   "4f8v_A"
+  ],
+  "4yaz_R": [
+   "4yb0_R"
+  ],
+  "7elq_A": [
+   "7elp_A"
+  ],
+  "7eog_A": [
+   "7eol_A",
+   "7eop_A",
+   "7eoo_A",
+   "7eom_A",
+   "7eon_A"
+  ],
+  "7l0z_G": [
+   "5ob3_A"
+  ],
+  "7oa3_A": [
+   "7oax_A",
+   "7oav_A"
+  ],
+  "8f0n_A": [
+   "8f0n_B"
+  ],
+  "8hb1_A": [
+   "8i3z_A",
+   "8hb3_A"
+  ],
+  "7kvu_G": [
+   "7kvv_D"
+  ],
+  "7tzr_X": [
+   "4nya_A"
+  ],
+  "1pbr_A": [
+   "2m4q_1"
+  ],
+  "1uui_B": [
+   "1arj_N",
+   "2l8h_A",
+   "1uud_B",
+   "1uts_B"
+  ],
+  "2gdi_X": [
+   "4nya_A"
+  ],
+  "3d2x_A": [
+   "2cky_A",
+   "3d2g_A",
+   "3d2v_A"
+  ],
+  "3gx2_A": [
+   "3gx3_A"
+  ]
+ },
+ "original_train_size": 345,
+ "cleaned_train_size": 314,
+ "remove_val_ids": [
+  "2bee_A",
+  "7eok_A",
+  "7kvt_B"
+ ],
+ "val_leak_map": {
+  "2bee_A": [
+   "TE18/2pwt_A",
+   "TE18/4f8u_B"
+  ],
+  "7eok_A": [
+   "TL12/7eog_A"
+  ],
+  "7kvt_B": [
+   "JL10/7kvu_G"
+  ]
+ },
+ "_note": "remove_train_ids: training chains identical to a test sequence (345 -> 314); remove_val_ids: validation chains identical to a test sequence (43 -> 40), consumed by train.py --drop_val_leaked"
+}

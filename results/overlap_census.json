@@ -1,0 +1,180 @@
+{
+  "criterion": "exact sequence match; homology = max identity (global alignment, length ratio >= 0.8)",
+  "per_benchmark": {
+    "TE18": {
+      "n_chains": 18,
+      "exact_train": [
+        "2pwt_A",
+        "4f8u_B",
+        "4yaz_R"
+      ],
+      "exact_val": [
+        "2pwt_A",
+        "4f8u_B"
+      ],
+      "hom80_train": [
+        "2pwt_A",
+        "4f8u_B",
+        "4yaz_R",
+        "5bjo_E"
+      ],
+      "hom80_val": [
+        "2pwt_A",
+        "4f8u_B"
+      ],
+      "hom70_train": [
+        "2mis_A",
+        "2pwt_A",
+        "379d_B",
+        "4f8u_B",
+        "4yaz_R",
+        "5bjo_E",
+        "5v3f_A"
+      ],
+      "n_exact_train": 3,
+      "n_exact_val": 2,
+      "n_exact_any": 3,
+      "n_hom80_train": 4,
+      "n_hom80_val": 2,
+      "n_hom80_any": 4,
+      "n_hom70_train": 7
+    },
+    "TL12": {
+      "n_chains": 12,
+      "exact_train": [
+        "7elq_A",
+        "7eog_A",
+        "7l0z_G",
+        "7oa3_A",
+        "8f0n_A",
+        "8hb1_A"
+      ],
+      "exact_val": [
+        "7eog_A"
+      ],
+      "hom80_train": [
+        "7elq_A",
+        "7eog_A",
+        "7l0z_G",
+        "7oa3_A",
+        "7td7_A",
+        "8f0n_A",
+        "8hb1_A"
+      ],
+      "hom80_val": [
+        "7eog_A",
+        "7td7_A"
+      ],
+      "hom70_train": [
+        "7d12_A",
+        "7elq_A",
+        "7eog_A",
+        "7l0z_G",
+        "7oa3_A",
+        "7rex_A",
+        "7td7_A",
+        "8f0n_A",
+        "8hb1_A"
+      ],
+      "n_exact_train": 6,
+      "n_exact_val": 1,
+      "n_exact_any": 6,
+      "n_hom80_train": 7,
+      "n_hom80_val": 2,
+      "n_hom80_any": 7,
+      "n_hom70_train": 9
+    },
+    "JL10": {
+      "n_chains": 10,
+      "exact_train": [
+        "7kvu_G",
+        "7tzr_X"
+      ],
+      "exact_val": [
+        "7kvu_G"
+      ],
+      "hom80_train": [
+        "6wtr_A",
+        "6wzs_B",
+        "7eaf_A",
+        "7kvu_G",
+        "7tzr_X"
+      ],
+      "hom80_val": [
+        "6wtr_A",
+        "7eaf_A",
+        "7kvu_G",
+        "7tzr_X"
+      ],
+      "hom70_train": [
+        "6wtr_A",
+        "6wzs_B",
+        "7eaf_A",
+        "7eqj_B",
+        "7kvu_G",
+        "7tzr_X"
+      ],
+      "n_exact_train": 2,
+      "n_exact_val": 1,
+      "n_exact_any": 2,
+      "n_hom80_train": 5,
+      "n_hom80_val": 4,
+      "n_hom80_any": 5,
+      "n_hom70_train": 6
+    },
+    "RB9": {
+      "n_chains": 6,
+      "exact_train": [
+        "1pbr_A",
+        "1uui_B",
+        "2gdi_X",
+        "3d2x_A",
+        "3gx2_A"
+      ],
+      "exact_val": [],
+      "hom80_train": [
+        "1pbr_A",
+        "1uui_B",
+        "1y26_X",
+        "2gdi_X",
+        "3d2x_A",
+        "3gx2_A"
+      ],
+      "hom80_val": [
+        "1pbr_A",
+        "1uui_B",
+        "2gdi_X",
+        "3gx2_A"
+      ],
+      "hom70_train": [
+        "1pbr_A",
+        "1uui_B",
+        "1y26_X",
+        "2gdi_X",
+        "3d2x_A",
+        "3gx2_A"
+      ],
+      "n_exact_train": 5,
+      "n_exact_val": 0,
+      "n_exact_any": 5,
+      "n_hom80_train": 6,
+      "n_hom80_val": 4,
+      "n_hom80_any": 6,
+      "n_hom70_train": 6
+    }
+  },
+  "total": {
+    "n_chains": 46,
+    "n_exact_train": 16,
+    "n_exact_val": 4,
+    "n_hom80_train": 22,
+    "n_hom80_val": 12,
+    "n_hom70_train": 28,
+    "n_exact_any": 16,
+    "n_hom80_any": 22
+  },
+  "reference_sizes": {
+    "train": 345,
+    "val": 43
+  }
+}

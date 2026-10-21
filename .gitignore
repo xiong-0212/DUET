@@ -1,0 +1,27 @@
+# Regenerable large data
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/README.md
+data/external/*.pt
+logs/*
+!logs/.gitkeep
+docs/
+figures/
+results/controlled/*
+!results/controlled/.gitkeep
+
+# Keep only the selected main weights in normal Git tracking; use Git LFS.
+checkpoints/*
+!checkpoints/README.md
+!checkpoints/controlled/
+!checkpoints/controlled/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+*.swp

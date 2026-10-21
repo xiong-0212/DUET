@@ -1,0 +1,102 @@
+{
+  "before": {
+    "train": {
+      "chains": 345,
+      "nucleotides": 17887,
+      "positive": 5609,
+      "negative": 12278,
+      "positive_ratio": 0.3135796947503774,
+      "ratio": 2.1889819932251737
+    },
+    "val": {
+      "chains": 43,
+      "nucleotides": 2224,
+      "positive": 801,
+      "negative": 1423,
+      "positive_ratio": 0.3601618705035971,
+      "ratio": 1.776529338327091
+    },
+    "TE18": {
+      "chains": 18,
+      "nucleotides": 597,
+      "positive": 203,
+      "negative": 394,
+      "positive_ratio": 0.34003350083752093,
+      "ratio": 1.9408866995073892
+    },
+    "TL12": {
+      "chains": 12,
+      "nucleotides": 515,
+      "positive": 183,
+      "negative": 332,
+      "positive_ratio": 0.3553398058252427,
+      "ratio": 1.814207650273224
+    },
+    "JL10": {
+      "chains": 10,
+      "nucleotides": 821,
+      "positive": 264,
+      "negative": 557,
+      "positive_ratio": 0.3215590742996346,
+      "ratio": 2.109848484848485
+    },
+    "RB9": {
+      "chains": 9,
+      "nucleotides": 457,
+      "positive": 129,
+      "negative": 328,
+      "positive_ratio": 0.28227571115973743,
+      "ratio": 2.5426356589147288
+    }
+  },
+  "after": {
+    "train": {
+      "chains": 314,
+      "nucleotides": 16478,
+      "positive": 5189,
+      "negative": 11289,
+      "positive_ratio": 0.3149047214467775,
+      "ratio": 2.1755636924262864
+    },
+    "val": {
+      "chains": 40,
+      "nucleotides": 2073,
+      "positive": 748,
+      "negative": 1325,
+      "positive_ratio": 0.3608297153883261,
+      "ratio": 1.7713903743315509
+    },
+    "TE18": {
+      "chains": 18,
+      "nucleotides": 597,
+      "positive": 203,
+      "negative": 394,
+      "positive_ratio": 0.34003350083752093,
+      "ratio": 1.9408866995073892
+    },
+    "TL12": {
+      "chains": 12,
+      "nucleotides": 515,
+      "positive": 183,
+      "negative": 332,
+      "positive_ratio": 0.3553398058252427,
+      "ratio": 1.814207650273224
+    },
+    "JL10": {
+      "chains": 10,
+      "nucleotides": 821,
+      "positive": 264,
+      "negative": 557,
+      "positive_ratio": 0.3215590742996346,
+      "ratio": 2.109848484848485
+    },
+    "RB9": {
+      "chains": 6,
+      "nucleotides": 376,
+      "positive": 88,
+      "negative": 288,
+      "positive_ratio": 0.23404255319148937,
+      "ratio": 3.272727272727273
+    }
+  }
+}

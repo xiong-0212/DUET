@@ -1,0 +1,88 @@
+{
+  "protocol": "our models: 5 seeds, each at its own validation-selected threshold; released checkpoint: their own pipeline at 0.5",
+  "leaked_split": {
+    "note": "training 345 chains (as distributed), validation 40 (leaked val chains removed), test sets as distributed (RB9 = 6 after internal dedup)",
+    "released_cobra_checkpoint": {
+      "TE18": 0.212,
+      "TL12": 0.568,
+      "JL10": 0.329,
+      "RB9": 0.671,
+      "avg": 0.445
+    },
+    "cobra_m3_equivalent_retrained": {
+      "TE18": 0.232,
+      "TL12": 0.567,
+      "JL10": 0.339,
+      "RB9": 0.634,
+      "avg": 0.443,
+      "sd": 0.023
+    },
+    "duet_graph_tower": {
+      "TE18": 0.162,
+      "TL12": 0.556,
+      "JL10": 0.363,
+      "RB9": 0.747,
+      "avg": 0.457,
+      "sd": 0.014
+    },
+    "duet_sequence_tower": {
+      "TE18": 0.162,
+      "TL12": 0.5,
+      "JL10": 0.326,
+      "RB9": 0.715,
+      "avg": 0.425,
+      "sd": 0.011
+    },
+    "duet_ensemble": {
+      "TE18": 0.191,
+      "TL12": 0.576,
+      "JL10": 0.363,
+      "RB9": 0.714,
+      "avg": 0.461,
+      "sd": 0.01,
+      "vs_retrained_baseline": {
+        "delta": 0.0177,
+        "p": 0.2,
+        "seeds_in_favour": 4
+      }
+    }
+  },
+  "deleaked_split": {
+    "note": "training 314 chains, validation 40, RB9 = 6; the protocol used throughout the paper",
+    "duet_ensemble_vs_retrained_baseline": {
+      "delta": 0.0351,
+      "p": 0.0379,
+      "seeds_in_favour": 5
+    }
+  },
+  "reproduction_gap": {
+    "note": "our reproduction of the released checkpoint, per benchmark: full test set vs the subset left after removing the chains that share a sequence with the training set (16 chains in total)",
+    "per_benchmark": {
+      "TE18": {
+        "full": 0.212,
+        "clean_subset": 0.185,
+        "paper": 0.19
+      },
+      "TL12": {
+        "full": 0.568,
+        "clean_subset": 0.297,
+        "paper": 0.546
+      },
+      "JL10": {
+        "full": 0.329,
+        "clean_subset": 0.269,
+        "paper": 0.293
+      },
+      "RB9": {
+        "full": 0.572,
+        "clean_subset": 0.427,
+        "paper": 0.557
+      }
+    },
+    "average": {
+      "full": 0.42,
+      "clean_subset": 0.294,
+      "paper": 0.396
+    }
+  }
+}
