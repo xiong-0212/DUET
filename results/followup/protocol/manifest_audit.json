@@ -1,0 +1,122 @@
+{
+  "deduplicated": {
+    "290": {
+      "errors": [],
+      "fold_positive_residues": [
+        359,
+        440,
+        590,
+        437,
+        432
+      ],
+      "fold_sizes": [
+        25,
+        25,
+        27,
+        32,
+        26
+      ],
+      "ok": true,
+      "pool_records": 135
+    }
+  },
+  "repeated_cv": {
+    "101": {
+      "errors": [],
+      "fold_positive_residues": [
+        895,
+        894,
+        894,
+        894,
+        894
+      ],
+      "fold_sizes": [
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "ok": true,
+      "pool_records": 290
+    },
+    "102": {
+      "errors": [],
+      "fold_positive_residues": [
+        892,
+        893,
+        902,
+        892,
+        892
+      ],
+      "fold_sizes": [
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "ok": true,
+      "pool_records": 290
+    },
+    "103": {
+      "errors": [],
+      "fold_positive_residues": [
+        894,
+        894,
+        896,
+        894,
+        893
+      ],
+      "fold_sizes": [
+        58,
+        58,
+        58,
+        58,
+        58
+      ],
+      "ok": true,
+      "pool_records": 290
+    }
+  },
+  "size": {
+    "160": {
+      "errors": [],
+      "fold_positive_residues": [
+        349,
+        541,
+        530,
+        506,
+        541
+      ],
+      "fold_sizes": [
+        36,
+        31,
+        31,
+        31,
+        31
+      ],
+      "ok": true,
+      "pool_records": 160
+    },
+    "80": {
+      "errors": [],
+      "fold_positive_residues": [
+        353,
+        247,
+        178,
+        232,
+        223
+      ],
+      "fold_sizes": [
+        15,
+        16,
+        16,
+        16,
+        17
+      ],
+      "ok": true,
+      "pool_records": 80
+    }
+  }
+}

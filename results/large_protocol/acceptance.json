@@ -1,0 +1,92 @@
+{
+  "cluster_count": 115,
+  "cross_fold_homology_violations": 0,
+  "errors": [],
+  "expected_seeds": [
+    42,
+    0,
+    1,
+    2,
+    3,
+    7,
+    11,
+    13,
+    17,
+    23
+  ],
+  "external_counts": {
+    "external_jiang": 3,
+    "hariboss_test": 6,
+    "time_dependent": 11
+  },
+  "manifest_counts": {
+    "JL10": 10,
+    "RB9": 5,
+    "TE18": 17,
+    "TL12": 12,
+    "pool": 290
+  },
+  "methods": [
+    {
+      "final_seed_count": 10,
+      "method": "cobra",
+      "selected_epoch": 14,
+      "selected_threshold": 0.3
+    },
+    {
+      "final_seed_count": 10,
+      "method": "duet_graph",
+      "selected_epoch": 14,
+      "selected_threshold": 0.49999999999999994
+    },
+    {
+      "final_seed_count": 10,
+      "method": "duet_tcn",
+      "selected_epoch": 18,
+      "selected_threshold": 0.49999999999999994
+    },
+    {
+      "final_seed_count": 10,
+      "method": "duet_dense",
+      "selected_epoch": 22,
+      "selected_threshold": 0.5199999999999999
+    },
+    {
+      "final_seed_count": 10,
+      "method": "duet_ensemble",
+      "selected_epoch": 18,
+      "selected_threshold": 0.4699999999999999
+    },
+    {
+      "final_seed_count": 10,
+      "method": "graph_seq3d",
+      "selected_epoch": 13,
+      "selected_threshold": 0.48999999999999994
+    },
+    {
+      "final_seed_count": 10,
+      "method": "graph_seqss3d",
+      "selected_epoch": 16,
+      "selected_threshold": 0.4799999999999999
+    },
+    {
+      "final_seed_count": 10,
+      "method": "grassp_ernie",
+      "selected_epoch": 81,
+      "selected_threshold": 0.49999999999999994
+    },
+    {
+      "final_seed_count": 10,
+      "method": "grassp_rnafm",
+      "selected_epoch": 79,
+      "selected_threshold": 0.48999999999999994
+    },
+    {
+      "final_seed_count": 10,
+      "method": "rgcn_ernie",
+      "selected_epoch": 14,
+      "selected_threshold": 0.49999999999999994
+    }
+  ],
+  "ok": true
+}

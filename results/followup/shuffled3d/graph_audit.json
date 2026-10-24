@@ -1,0 +1,36 @@
+{
+  "duplicate_targets_required": 3,
+  "errors": [],
+  "output": "data\\processed\\graph_seq3d_shuffle_large_p80_cv5.pt",
+  "source": "data\\processed\\graph_seq3d_large_p80_cv5.pt",
+  "splits": {
+    "JL10": {
+      "degree_checks": 10,
+      "edges": 8190,
+      "graphs": 10,
+      "nodes": 821,
+      "sequence_checks": 10
+    },
+    "TE18": {
+      "degree_checks": 17,
+      "edges": 5726,
+      "graphs": 17,
+      "nodes": 576,
+      "sequence_checks": 17
+    },
+    "TL12": {
+      "degree_checks": 12,
+      "edges": 5126,
+      "graphs": 12,
+      "nodes": 515,
+      "sequence_checks": 12
+    },
+    "pool": {
+      "degree_checks": 290,
+      "edges": 139766,
+      "graphs": 290,
+      "nodes": 14052,
+      "sequence_checks": 290
+    }
+  }
+}

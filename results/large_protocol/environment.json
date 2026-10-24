@@ -1,0 +1,10 @@
+{
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 3060",
+  "numpy": "1.26.4",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python_executable": "python",
+  "python_version": "3.9.23",
+  "scipy": "1.13.1",
+  "torch": "2.5.1"
+}

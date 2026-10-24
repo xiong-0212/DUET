@@ -1,0 +1,210 @@
+{
+  "feature_definitions": {
+    "dual": "RNA-FM 640-d followed by RiNALMo-giga 1280-d",
+    "ernie": "ERNIE-RNA 12-layer 768-d embeddings from ERNIE_RNA_DIR",
+    "rinalmo": "RiNALMo-giga embeddings copied from the prior external audit",
+    "rnafm": "RNA-FM layer-12 embeddings copied from the prior external audit",
+    "ss_emb": "[paired, opening, closing, unpaired] from the released dot-bracket",
+    "struct3d": "directed per-residue top-8 Euclidean neighbours using C4', then P, then C1'"
+  },
+  "n_chains": 19,
+  "output": "data/processed/smartpocket_external_graphs.pt",
+  "sets": {
+    "external_jiang": {
+      "6IZP_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 29,
+        "positive_residues": 8,
+        "seq_edges": 56,
+        "ss_edges": 20,
+        "struct_edges": 232,
+        "struct_mean_out_degree": 8.0
+      },
+      "7V9E_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 1,
+        "length": 68,
+        "positive_residues": 7,
+        "seq_edges": 134,
+        "ss_edges": 38,
+        "struct_edges": 544,
+        "struct_mean_out_degree": 8.0
+      }
+    },
+    "hariboss_test": {
+      "2KD4_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 8,
+        "positive_residues": 4,
+        "seq_edges": 14,
+        "ss_edges": 0,
+        "struct_edges": 56,
+        "struct_mean_out_degree": 7.0
+      },
+      "3DIL_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 1,
+        "length": 174,
+        "positive_residues": 8,
+        "seq_edges": 346,
+        "ss_edges": 112,
+        "struct_edges": 1392,
+        "struct_mean_out_degree": 8.0
+      },
+      "6G7Z_B": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 54,
+        "positive_residues": 4,
+        "seq_edges": 106,
+        "ss_edges": 34,
+        "struct_edges": 432,
+        "struct_mean_out_degree": 8.0
+      },
+      "7YCH_B": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 11,
+        "positive_residues": 1,
+        "seq_edges": 20,
+        "ss_edges": 0,
+        "struct_edges": 88,
+        "struct_mean_out_degree": 8.0
+      },
+      "7YCI_N": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 389,
+        "positive_residues": 7,
+        "seq_edges": 776,
+        "ss_edges": 256,
+        "struct_edges": 3112,
+        "struct_mean_out_degree": 8.0
+      },
+      "7ZJ4_E": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 374,
+        "positive_residues": 13,
+        "seq_edges": 746,
+        "ss_edges": 282,
+        "struct_edges": 2992,
+        "struct_mean_out_degree": 8.0
+      }
+    },
+    "time_dependent": {
+      "8HZE_B": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 35,
+        "positive_residues": 8,
+        "seq_edges": 68,
+        "ss_edges": 24,
+        "struct_edges": 280,
+        "struct_mean_out_degree": 8.0
+      },
+      "8HZL_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 84,
+        "positive_residues": 18,
+        "seq_edges": 166,
+        "ss_edges": 46,
+        "struct_edges": 672,
+        "struct_mean_out_degree": 8.0
+      },
+      "8K85_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 56,
+        "positive_residues": 8,
+        "seq_edges": 110,
+        "ss_edges": 24,
+        "struct_edges": 448,
+        "struct_mean_out_degree": 8.0
+      },
+      "8T5O_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 111,
+        "positive_residues": 8,
+        "seq_edges": 220,
+        "ss_edges": 60,
+        "struct_edges": 888,
+        "struct_mean_out_degree": 8.0
+      },
+      "8XZR_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 1,
+        "length": 53,
+        "positive_residues": 8,
+        "seq_edges": 104,
+        "ss_edges": 34,
+        "struct_edges": 424,
+        "struct_mean_out_degree": 8.0
+      },
+      "8Z8Q_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 69,
+        "positive_residues": 9,
+        "seq_edges": 136,
+        "ss_edges": 36,
+        "struct_edges": 552,
+        "struct_mean_out_degree": 8.0
+      },
+      "8ZAU_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 1,
+        "length": 69,
+        "positive_residues": 8,
+        "seq_edges": 136,
+        "ss_edges": 40,
+        "struct_edges": 552,
+        "struct_mean_out_degree": 8.0
+      },
+      "9BZ1_B": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 84,
+        "positive_residues": 7,
+        "seq_edges": 166,
+        "ss_edges": 48,
+        "struct_edges": 672,
+        "struct_mean_out_degree": 8.0
+      },
+      "9FN3_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 56,
+        "positive_residues": 7,
+        "seq_edges": 110,
+        "ss_edges": 42,
+        "struct_edges": 448,
+        "struct_mean_out_degree": 8.0
+      },
+      "9IOU_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 19,
+        "positive_residues": 4,
+        "seq_edges": 36,
+        "ss_edges": 10,
+        "struct_edges": 152,
+        "struct_mean_out_degree": 8.0
+      },
+      "9MQU_A": {
+        "cif_sequence_identity": 1.0,
+        "imputed_structure_coordinates": 0,
+        "length": 249,
+        "positive_residues": 6,
+        "seq_edges": 496,
+        "ss_edges": 150,
+        "struct_edges": 1992,
+        "struct_mean_out_degree": 8.0
+      }
+    }
+  }
+}

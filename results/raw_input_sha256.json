@@ -1,0 +1,15 @@
+{
+  "Hariboss_TR60/Hariboss_TR60-bindingsite.txt": "9d3c4b752e087525d8f7592de52b3fb3387a17e9ebd859ae3fce39cf89eb27fa",
+  "Hariboss_TR60/test.csv": "8042effd86f85cabcce93f8a1495ee2aad7b9fb1ac92c621eb7f145617857f31",
+  "Hariboss_TR60/train.csv": "d1adbf9b72f7b48d1ddde529ac89bb8a437e70f6801cd73607a88a14d5ba69cd",
+  "Hariboss_TR60/val.csv": "215548f436367177b000b977f8b96367691cf1581618a13fff2ebdb8aa8a2156",
+  "JL10/JL10-bindingsite.txt": "528a0a923059987fe79abd8108eb6493e3b97e9718cd83da7ce426dc7e677676",
+  "RB9/RB9-bindingsite.txt": "0a363d08c9947da05b2349810ee03f7fcc3980c5e1ebeb2112c9fda8fecce76f",
+  "RNABindset/RNABindset-bindingsite.txt": "b9c275c02a15795e9a1fe55375cf869dd6d7a84468b15a78a5b3666ad1ad7abf",
+  "RNABindset/rna_bs_set_1.csv": "7490f13545256dfd1b0d7498f33758d0777a3855991e26d53940c6426117d2fa",
+  "RNABindset/rna_bs_set_2.csv": "82ea80f769a0345ffe958c107465a8c37fca6260175cb8c1ee019f512a3ce967",
+  "RNABindset/rna_bs_set_3.csv": "58fb619dc193bce1fa9842cfa6fd4628ecfcb6c19fdcc7c4a11a3c0f914e4a58",
+  "RNABindset/rna_bs_set_4.csv": "dd96d58c68bd52d3003a0c2283f2107e92ab1b3d90daab813a6bc12b3189c114",
+  "TE18/TE18-bindingsite.txt": "b2d818bafe15e02606898688f46031b292daa8d16268b8e68f5e0f145ef146ff",
+  "TL12/TL12-bindingsite.txt": "f053f5be9de3aa229fe418500a0ac117880f5ea663a98412cba00a6f7229ab97"
+}

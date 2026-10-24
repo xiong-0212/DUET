@@ -1,0 +1,232 @@
+{
+  "errors": [],
+  "manifests": {
+    "exact_sequence_unique": {
+      "checks": {
+        "homology_control": false,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 160,
+        "val": 34
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": null,
+        "train_vs_validation": null,
+        "validation_vs_test": null,
+        "within_train": null,
+        "within_validation": null
+      }
+    },
+    "homology_p50": {
+      "checks": {
+        "homology_control": true,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 34,
+        "val": 5
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": {
+          "first": "tests/1q8n_A",
+          "identity": 0.48717948717948717,
+          "second": "train/2ktz_A"
+        },
+        "train_vs_validation": {
+          "first": "val/6laz_A",
+          "identity": 0.49206349206349204,
+          "second": "train/2miy_A"
+        },
+        "validation_vs_test": {
+          "first": "tests/6ez0_A",
+          "identity": 0.4782608695652174,
+          "second": "val/2ho7_A"
+        },
+        "within_train": {
+          "first": "train/6ck5_A",
+          "identity": 0.49206349206349204,
+          "second": "train/4meg_B"
+        },
+        "within_validation": {
+          "first": "val/4rge_B",
+          "identity": 0.4745762711864407,
+          "second": "val/6laz_A"
+        }
+      }
+    },
+    "homology_p70": {
+      "checks": {
+        "homology_control": true,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 75,
+        "val": 20
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": {
+          "first": "tests/5v3f_A",
+          "identity": 0.6666666666666666,
+          "second": "train/6c65_A"
+        },
+        "train_vs_validation": {
+          "first": "val/4qlm_A",
+          "identity": 0.6885245901639344,
+          "second": "train/4qk9_A"
+        },
+        "validation_vs_test": {
+          "first": "tests/7rex_A",
+          "identity": 0.6764705882352942,
+          "second": "val/6e1s_A"
+        },
+        "within_train": {
+          "first": "train/7a3y_A",
+          "identity": 0.6923076923076923,
+          "second": "train/1ykv_A"
+        },
+        "within_validation": {
+          "first": "val/4qlm_A",
+          "identity": 0.5137614678899083,
+          "second": "val/4w92_C"
+        }
+      }
+    },
+    "homology_p80": {
+      "checks": {
+        "homology_control": true,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 79,
+        "val": 22
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": {
+          "first": "tests/2pwt_A",
+          "identity": 0.7272727272727273,
+          "second": "train/4k31_B"
+        },
+        "train_vs_validation": {
+          "first": "val/3ges_A",
+          "identity": 0.7323943661971831,
+          "second": "train/5kpy_A"
+        },
+        "validation_vs_test": {
+          "first": "tests/2pwt_A",
+          "identity": 0.7619047619047619,
+          "second": "val/4p3s_A"
+        },
+        "within_train": {
+          "first": "train/6va3_A",
+          "identity": 0.7272727272727273,
+          "second": "train/5xi1_S"
+        },
+        "within_validation": {
+          "first": "val/3bnq_C",
+          "identity": 0.7272727272727273,
+          "second": "val/4p3s_A"
+        }
+      }
+    },
+    "homology_p90": {
+      "checks": {
+        "homology_control": true,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 96,
+        "val": 24
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": {
+          "first": "tests/8f0n_A",
+          "identity": 0.8775510204081632,
+          "second": "train/8eyu_B"
+        },
+        "train_vs_validation": {
+          "first": "val/8i43_A",
+          "identity": 0.8947368421052632,
+          "second": "train/8i44_A"
+        },
+        "validation_vs_test": {
+          "first": "tests/1uui_B",
+          "identity": 0.896551724137931,
+          "second": "val/1qd3_A"
+        },
+        "within_train": {
+          "first": "train/6up0_C",
+          "identity": 0.8947368421052632,
+          "second": "train/6e8t_D"
+        },
+        "within_validation": {
+          "first": "val/5ueg_A",
+          "identity": 0.8181818181818182,
+          "second": "val/8sxl_A"
+        }
+      }
+    },
+    "leakage_p80_keep_redundancy": {
+      "checks": {
+        "homology_control": true,
+        "record_accounting_complete": true,
+        "retained_removed_disjoint": true
+      },
+      "counts": {
+        "JL10": 10,
+        "RB9": 5,
+        "TE18": 17,
+        "TL12": 12,
+        "train": 213,
+        "val": 27
+      },
+      "error_count": 0,
+      "maximum_identity": {
+        "train_vs_test": {
+          "first": "tests/2pwt_A",
+          "identity": 0.7727272727272727,
+          "second": "train/5xz1_A"
+        },
+        "train_vs_validation": null,
+        "validation_vs_test": {
+          "first": "tests/2pwt_A",
+          "identity": 0.7619047619047619,
+          "second": "val/4p3s_A"
+        },
+        "within_train": null,
+        "within_validation": null
+      }
+    }
+  },
+  "ok": true
+}

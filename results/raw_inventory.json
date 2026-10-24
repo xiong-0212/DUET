@@ -1,0 +1,45 @@
+{
+  "max_len": 161,
+  "missing_ids": {
+    "train": [],
+    "val": []
+  },
+  "splits": {
+    "JL10": {
+      "kept": 10,
+      "listed_ids": 10,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    },
+    "RB9": {
+      "kept": 9,
+      "listed_ids": 9,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    },
+    "TE18": {
+      "kept": 18,
+      "listed_ids": 18,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    },
+    "TL12": {
+      "kept": 12,
+      "listed_ids": 12,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    },
+    "train": {
+      "kept": 345,
+      "listed_ids": 345,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    },
+    "val": {
+      "kept": 43,
+      "listed_ids": 43,
+      "missing_from_bindingsite": 0,
+      "over_max_len": 0
+    }
+  }
+}

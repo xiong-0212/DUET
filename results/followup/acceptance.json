@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "all_metrics": {
+      "comparisons": 217,
+      "families": 6
+    },
+    "duplicate_weighting": {
+      "models": [
+        "duet_graph",
+        "grassp_rnafm"
+      ],
+      "variants": [
+        "group",
+        "uniform",
+        "dedup"
+      ]
+    },
+    "grasp_grid": {
+      "ernie": {
+        "confirmed": 3,
+        "screened": 24
+      },
+      "rnafm": {
+        "confirmed": 3,
+        "screened": 24
+      }
+    },
+    "repeated_cv": {
+      "partitions": 3,
+      "positive_ranges": {
+        "101": 1,
+        "102": 10,
+        "103": 3
+      }
+    },
+    "shuffled3d": {
+      "comparisons": 6,
+      "duplicate_targets_required": 3
+    },
+    "size_curve": {
+      "methods": 8,
+      "sizes": [
+        80,
+        160,
+        290
+      ]
+    },
+    "smartpocket_external": {
+      "imputed_coordinates": 4,
+      "independent_chains": 13,
+      "source_matched_chains": 6
+    }
+  },
+  "errors": [],
+  "metrics": [
+    "MCC",
+    "AUC",
+    "AUPRC",
+    "F1",
+    "Precision",
+    "Recall",
+    "GMean"
+  ],
+  "ok": true,
+  "original_duet_git_clean": true
+}

@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+"""Audit multi-panel figure alignment from rendered layout geometry.
+
+The core auditor consumes a small backend-neutral JSON manifest. Matplotlib
+figures can call :func:`require_matplotlib_panel_alignment` directly after the
+final layout draw. R/patchwork figures use ``panel_alignment.R`` to export the
+same manifest and then invoke this CLI.
+
+This gate checks the plot-area rectangles that readers perceive as panels. It
+does not infer scientific equivalence: comparable row and column groups come
+from Matplotlib SubplotSpec metadata, patchwork/gtable metadata, or explicit
+groups supplied by the plotting script. Horizontal rows of three or four equal
+grid spans must also have equal final physical widths. Asymmetric hero panels,
+insets and colorbars must be excluded or exempted with a recorded reason rather
+than silently weakening the tolerance.
+"""
+
 from __future__ import annotations
 
 import argparse
@@ -19,7 +36,7 @@ DEFAULT_GUTTER_TOLERANCE_PT = 1.5
 
 
 class PanelAlignmentError(RuntimeError):
-    pass
+    """Raised when a required in-memory alignment gate does not pass."""
 
 
 def _atomic_write_text(path: Path, content: str) -> None:
@@ -94,7 +111,13 @@ def _inferred_groups(panels: Sequence[dict[str, Any]], orientation: str) -> list
 
 
 def _inferred_boundary_groups(panels: Sequence[dict[str, Any]]) -> list[dict[str, Any]]:
-    
+    """Infer shared grid boundaries across panels with unequal spans.
+
+    This covers layouts such as two stacked panels beside one panel that spans
+    both rows. Equal-span panels are handled by the ordinary row/column groups,
+    so boundary groups are emitted only when at least two different spans meet
+    at the same grid boundary.
+    """
     specifications = (
         ("top", "row_start", "row_start", "row_stop"),
         ("bottom", "row_stop", "row_start", "row_stop"),
@@ -298,7 +321,7 @@ def audit_layout_manifest(
     gutter_tolerance_pt: float = DEFAULT_GUTTER_TOLERANCE_PT,
     require_panel_labels: bool = False,
 ) -> dict[str, Any]:
-    
+    """Audit a backend-neutral panel-layout manifest."""
     if tolerance_pt < 0 or gutter_tolerance_pt < 0:
         raise ValueError("alignment tolerances must be non-negative")
     layout, errors = _validated_layout(manifest)
@@ -699,7 +722,7 @@ def matplotlib_layout_manifest(
     exclude_axes: Iterable[Any] = (),
     exemptions: Sequence[Mapping[str, Any]] = (),
 ) -> dict[str, Any]:
-    
+    """Measure final Matplotlib axes rectangles in physical points."""
     fig.canvas.draw()
     width_in, height_in = (float(value) for value in fig.get_size_inches())
     width_pt, height_pt = width_in * 72, height_in * 72
@@ -802,7 +825,7 @@ def require_matplotlib_panel_alignment(
     strict: bool = False,
     **manifest_options: Any,
 ) -> dict[str, Any]:
-    
+    """Measure and block delivery when a Matplotlib multi-panel layout is misaligned."""
     manifest = matplotlib_layout_manifest(fig, **manifest_options)
     report = audit_layout_manifest(
         manifest,

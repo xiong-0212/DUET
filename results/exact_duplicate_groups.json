@@ -1,0 +1,2816 @@
+{
+  "raw": [
+    {
+      "label_conflict": false,
+      "length": 5,
+      "records": [
+        {
+          "rna_id": "1n7a_A",
+          "split": "train",
+          "task_sha256": "2256292b1b40fb80b7ad2b6f01f9d01a1f610dacc610957715b5d0eeff3de719"
+        },
+        {
+          "rna_id": "1n7b_A",
+          "split": "train",
+          "task_sha256": "2256292b1b40fb80b7ad2b6f01f9d01a1f610dacc610957715b5d0eeff3de719"
+        }
+      ],
+      "representative": "1n7a_A",
+      "sequence_sha256": "cb106be503ee31158afbb9d7aa7aa2c7b902b4b8270e6d841f12b462a4b6ed61"
+    },
+    {
+      "label_conflict": false,
+      "length": 9,
+      "records": [
+        {
+          "rna_id": "7kum_A",
+          "split": "train",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        },
+        {
+          "rna_id": "7kun_A",
+          "split": "train",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        },
+        {
+          "rna_id": "7kuo_A",
+          "split": "train",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        },
+        {
+          "rna_id": "7u87_A",
+          "split": "train",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        },
+        {
+          "rna_id": "7u88_A",
+          "split": "train",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        },
+        {
+          "rna_id": "7kup_A",
+          "split": "val",
+          "task_sha256": "56091b789cbef5940ef28e3f9f9cc0116c9433b3f62afd13d8ddcfcc95b8b089"
+        }
+      ],
+      "representative": "7kum_A",
+      "sequence_sha256": "830c8ec0ea639e2243d89236d8a20d9127def52355b192f8ac57d7ecc3861bdc"
+    },
+    {
+      "label_conflict": true,
+      "length": 10,
+      "records": [
+        {
+          "rna_id": "6c8e_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "6c8k_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "6c8l_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "6u6j_A",
+          "split": "train",
+          "task_sha256": "b579e3b0f6ba0e579a7235fa4bb4129cea271848d5eaa1319941c2138951c102"
+        },
+        {
+          "rna_id": "6u8u_A",
+          "split": "train",
+          "task_sha256": "6dcf7817bb57af27ec945e8df2ecdacbe69bef848b79553f575f1c599deeb788"
+        },
+        {
+          "rna_id": "7kuk_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "7u8a_A",
+          "split": "train",
+          "task_sha256": "1911a0961209de26316d71275f0bd4458194f8113916f5287d108d9c6ecd4f71"
+        },
+        {
+          "rna_id": "8swg_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "8sx5_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "8sx6_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "8sy1_A",
+          "split": "train",
+          "task_sha256": "af29d7d3d99f5ee6765cd5a813e02ff5bd1718eea4d6ab978114257f9f92eb1c"
+        },
+        {
+          "rna_id": "8vaw_A",
+          "split": "train",
+          "task_sha256": "b579e3b0f6ba0e579a7235fa4bb4129cea271848d5eaa1319941c2138951c102"
+        },
+        {
+          "rna_id": "7u8b_A",
+          "split": "val",
+          "task_sha256": "b579e3b0f6ba0e579a7235fa4bb4129cea271848d5eaa1319941c2138951c102"
+        }
+      ],
+      "representative": "6c8e_A",
+      "sequence_sha256": "61c5bd05bfd4fca17ae76a708cb10212019a1c2370e97fcd1090f080d287b173"
+    },
+    {
+      "label_conflict": true,
+      "length": 11,
+      "records": [
+        {
+          "rna_id": "5krg_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        },
+        {
+          "rna_id": "5v0h_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        },
+        {
+          "rna_id": "6c8m_A",
+          "split": "train",
+          "task_sha256": "dc0b62a7986bc94f1cbb88b4113f2d0a2bfa3485a84b8d54399d7140035d1093"
+        },
+        {
+          "rna_id": "6c8o_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        }
+      ],
+      "representative": "5krg_A",
+      "sequence_sha256": "44ae903670ed9af52ee77729dc70ffc6c3461e139683787dfc53ea135722616c"
+    },
+    {
+      "label_conflict": true,
+      "length": 11,
+      "records": [
+        {
+          "rna_id": "6hmo_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8cf2_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8r62_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8r8p_A",
+          "split": "train",
+          "task_sha256": "61cb1e50087b46bbe89e558915d67c08a76d951751695992fdbe5ff26fcb56f7"
+        }
+      ],
+      "representative": "6hmo_A",
+      "sequence_sha256": "1e353a747e2f935727857e03a4706442912960da101740c556b84de0c5ce9f9a"
+    },
+    {
+      "label_conflict": false,
+      "length": 11,
+      "records": [
+        {
+          "rna_id": "5ued_A",
+          "split": "train",
+          "task_sha256": "de4899234285ecfb1ed285ecd42e9e127f80372f6261dc0f373b47f8fce03d41"
+        },
+        {
+          "rna_id": "5uee_A",
+          "split": "train",
+          "task_sha256": "de4899234285ecfb1ed285ecd42e9e127f80372f6261dc0f373b47f8fce03d41"
+        },
+        {
+          "rna_id": "5ueg_A",
+          "split": "val",
+          "task_sha256": "de4899234285ecfb1ed285ecd42e9e127f80372f6261dc0f373b47f8fce03d41"
+        }
+      ],
+      "representative": "5ued_A",
+      "sequence_sha256": "15f6f1b93235c546ae81e2d42e19a019f88ef2d950b85fe8c2da93903367f8d9"
+    },
+    {
+      "label_conflict": true,
+      "length": 14,
+      "records": [
+        {
+          "rna_id": "6jji_B",
+          "split": "train",
+          "task_sha256": "c73d928725e8df8e83ff92b0a435f5190006c640419835f51e61f74077fe66c2"
+        },
+        {
+          "rna_id": "6xrq_B",
+          "split": "train",
+          "task_sha256": "f1a568befb157951cab3b39e44b4808525b13f96e7214969e4ce82ca1bfaa46c"
+        }
+      ],
+      "representative": "6jji_B",
+      "sequence_sha256": "89b695737ee499932f5a2521dc82408fdc2676a9a71c9e8e6b00063285e7e581"
+    },
+    {
+      "label_conflict": true,
+      "length": 15,
+      "records": [
+        {
+          "rna_id": "1zz5_A",
+          "split": "train",
+          "task_sha256": "05e069d08ecf5dbe18df84f4653232c6e5297454d5505b8cb84136b9582414f1"
+        },
+        {
+          "rna_id": "2a04_A",
+          "split": "train",
+          "task_sha256": "8c19fffc7188dfd69782b1b2247144bf7cbd25e265c43bc9daed4e6c6705ec03"
+        }
+      ],
+      "representative": "1zz5_A",
+      "sequence_sha256": "d26e412280cdde8889d71260a83a7891eda8ffb548740fc0c4bac4c9a0fbb3f7"
+    },
+    {
+      "label_conflict": true,
+      "length": 17,
+      "records": [
+        {
+          "rna_id": "6hbt_A",
+          "split": "train",
+          "task_sha256": "76269f65cb6756282de2fe9376fbc750e13bcbe95334257765c3407274d1e97b"
+        },
+        {
+          "rna_id": "6hc5_A",
+          "split": "train",
+          "task_sha256": "d743dd9404e3188148b4254cc792b6604986bb9e17cf6877beb5e7a565cad7d5"
+        }
+      ],
+      "representative": "6hbt_A",
+      "sequence_sha256": "867260d956c9441194edb1a1f96b4713ba79237be31708a07c961f92646d18b6"
+    },
+    {
+      "label_conflict": false,
+      "length": 20,
+      "records": [
+        {
+          "rna_id": "2tob_A",
+          "split": "RB9",
+          "task_sha256": "7fafd06104f22f2809419b645375501ddebd2c971f71a2e42fbf7500702c187c"
+        },
+        {
+          "rna_id": "2tob_A",
+          "split": "TE18",
+          "task_sha256": "7fafd06104f22f2809419b645375501ddebd2c971f71a2e42fbf7500702c187c"
+        }
+      ],
+      "representative": "2tob_A",
+      "sequence_sha256": "9b738381504299b53a6a11619c5cb17dc6df814d2b9e1d427bbfe374c769eacc"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "2pwt_A",
+          "split": "TE18",
+          "task_sha256": "435e9a010e943a112983b86a02f13455b4bb188bc6c002df9a5f66092f1e609a"
+        },
+        {
+          "rna_id": "4f8u_B",
+          "split": "TE18",
+          "task_sha256": "879cea7f89efcaad24abe2a44e3af0fcee19ecafbd44b9a59bf59137b96c34f3"
+        },
+        {
+          "rna_id": "1lc4_A",
+          "split": "train",
+          "task_sha256": "60134d56e845007ec7a7dadd830c3c55e80764b92ea46c93e30ddfabffaf1678"
+        },
+        {
+          "rna_id": "2be0_A",
+          "split": "train",
+          "task_sha256": "4517ed41976c351fffe85b533c4cf432f5b8337180acb4b489b90eba8585aa7d"
+        },
+        {
+          "rna_id": "2esj_A",
+          "split": "train",
+          "task_sha256": "91ed268feab05f63be302e433e971bc28b7bc23e8f85d83682fc364b6d30569c"
+        },
+        {
+          "rna_id": "2et4_A",
+          "split": "train",
+          "task_sha256": "5137ca76ca8c0c3a1d7559be3389f11bf54a44337bfe08b5afcc402c7daa14a2"
+        },
+        {
+          "rna_id": "3s4p_A",
+          "split": "train",
+          "task_sha256": "0c2f26be3ee8a27bc455c0c8f723218ce70b2a86978dd84b7b2cee5065767e62"
+        },
+        {
+          "rna_id": "4f8v_A",
+          "split": "train",
+          "task_sha256": "879cea7f89efcaad24abe2a44e3af0fcee19ecafbd44b9a59bf59137b96c34f3"
+        },
+        {
+          "rna_id": "4p20_A",
+          "split": "train",
+          "task_sha256": "8899f66f86931c27ea159fccbc14917646489bc43af8a8101190ce98652cce00"
+        },
+        {
+          "rna_id": "2bee_A",
+          "split": "val",
+          "task_sha256": "4517ed41976c351fffe85b533c4cf432f5b8337180acb4b489b90eba8585aa7d"
+        }
+      ],
+      "representative": "2pwt_A",
+      "sequence_sha256": "aba75d864907ff836db14f0357625cec15b219f2a47cb6dc10a06ea0c187dcf0"
+    },
+    {
+      "label_conflict": false,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "4gpx_A",
+          "split": "train",
+          "task_sha256": "8d744b342e7f16ed247e781369ff1cdc6f2ae704ece2c03a8ef7ed7c851394d8"
+        },
+        {
+          "rna_id": "5z1i_A",
+          "split": "train",
+          "task_sha256": "8d744b342e7f16ed247e781369ff1cdc6f2ae704ece2c03a8ef7ed7c851394d8"
+        }
+      ],
+      "representative": "4gpx_A",
+      "sequence_sha256": "519b7a82aa8f269e990d53dd3ee0471e0dd4017bbfae78c3ab1651722c89adf4"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "4k32_A",
+          "split": "train",
+          "task_sha256": "b4bc12c93a6e621f2ad0164a0b575c18e45e8fb1ed5f672ab1c96021de8c1fcb"
+        },
+        {
+          "rna_id": "4zc7_A",
+          "split": "train",
+          "task_sha256": "666032e77bbfd931c5c9f4e9a15de0676311154982afa0976165b436a9336a03"
+        }
+      ],
+      "representative": "4k32_A",
+      "sequence_sha256": "a3406dbe3d857034692d3f6d2b44af9eab127e9ef24f9185d5efa7607d72375f"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "5zei_A",
+          "split": "train",
+          "task_sha256": "b9560665e7e83d9f327e2dc675438cf38180e7a29155eef24e6e9735747f1f3f"
+        },
+        {
+          "rna_id": "5zej_A",
+          "split": "train",
+          "task_sha256": "40105e98d9e2b3df0b25365b2b2ed3fea4142556b6d73e49c90ee245691d0124"
+        }
+      ],
+      "representative": "5zei_A",
+      "sequence_sha256": "cb4c8262684de23e79571f2085674e0d9d18b38bc117dd1d28394797e10df544"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "5vcf_A",
+          "split": "train",
+          "task_sha256": "c78685f6d917f168740ea6785b2053fb6d6a636d193c6ea8a9bf5c177bd395e8"
+        },
+        {
+          "rna_id": "5vci_A",
+          "split": "train",
+          "task_sha256": "1d19620b632f54b2b7dfa4e8a6441e9307d878f1f732badc7117415f5d79b9ee"
+        }
+      ],
+      "representative": "5vcf_A",
+      "sequence_sha256": "8690a16eb9ae2779f2b43618a8cbded1e9ee0bccb37a8843054477b802b7c15b"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "1nta_A",
+          "split": "train",
+          "task_sha256": "8dde669db71540172eaaa08f1e9b81d3244b1682ea685dfa50a80495540d03b1"
+        },
+        {
+          "rna_id": "1ntb_A",
+          "split": "train",
+          "task_sha256": "93b014a924097ec6562782987b37481826698de7c8945ec30da18efe463201e2"
+        }
+      ],
+      "representative": "1nta_A",
+      "sequence_sha256": "775fa2195f8471fb62d6526162a97e0e7b2fc7f82240b9e458d97843a0f661ab"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "4gpy_A",
+          "split": "train",
+          "task_sha256": "d67c8c72adcff288bd6e3144951b08400543ea5dd2fe8a59d941554af1b5cbc3"
+        },
+        {
+          "rna_id": "7edl_A",
+          "split": "train",
+          "task_sha256": "f80a03418694b7bc9712a1665468fb26d454512cb0c9a22135c821b81151977e"
+        }
+      ],
+      "representative": "4gpy_A",
+      "sequence_sha256": "fe2ea4491ca8e36c4cb3e2f1b83f64e8e92a55403e601cf1db76e5ea3f9198e2"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "2o3v_A",
+          "split": "train",
+          "task_sha256": "75f2897633a0000cccdd515a721827fbae7735387c3386ab462a66e7953d3c27"
+        },
+        {
+          "rna_id": "5xz1_A",
+          "split": "train",
+          "task_sha256": "de651c024b5071e8c4d8dfd899c088bb7f0f230b2f300bd8a8c2a034cbd35c7e"
+        }
+      ],
+      "representative": "2o3v_A",
+      "sequence_sha256": "82fe21246a1f244759c13b06990b3a1266bf6757f2c0a2ca173295815c6a6c5f"
+    },
+    {
+      "label_conflict": false,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "4k31_B",
+          "split": "train",
+          "task_sha256": "8f9c2ba103f6fe50b5c06d34cf4f046511d9182e4d2a97554e1997b83d35cf2e"
+        },
+        {
+          "rna_id": "4k31_C",
+          "split": "train",
+          "task_sha256": "8f9c2ba103f6fe50b5c06d34cf4f046511d9182e4d2a97554e1997b83d35cf2e"
+        }
+      ],
+      "representative": "4k31_B",
+      "sequence_sha256": "82e02db29e6af6dc802b5b1756e3afe3ea917b879f003570da964c6343035ec7"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "3bnq_A",
+          "split": "train",
+          "task_sha256": "519d3ba5d1547e1b894c20689c5a6238415907e9314ce92a302f3bc67f17eae7"
+        },
+        {
+          "rna_id": "3bnr_A",
+          "split": "train",
+          "task_sha256": "519d3ba5d1547e1b894c20689c5a6238415907e9314ce92a302f3bc67f17eae7"
+        },
+        {
+          "rna_id": "3bnq_C",
+          "split": "val",
+          "task_sha256": "4ee5001f3fe831528f71a9c219fef79f2872433e20f99f7ab14d81ed7873ae05"
+        }
+      ],
+      "representative": "3bnq_A",
+      "sequence_sha256": "089278e0d754e43366b20a1a27ae2e020a62b997e11ff4e346001d8fe1d68888"
+    },
+    {
+      "label_conflict": true,
+      "length": 23,
+      "records": [
+        {
+          "rna_id": "8hb1_A",
+          "split": "TL12",
+          "task_sha256": "3092f7d561d93fdb5671a605df8d536ae73a11573cdd283cccd9ccec78869c2f"
+        },
+        {
+          "rna_id": "8hb3_A",
+          "split": "train",
+          "task_sha256": "ecf4240d1b9a4dcbae1ca30c40dcb13b7de36d1d9c3af88641263309435cbb27"
+        },
+        {
+          "rna_id": "8i3z_A",
+          "split": "train",
+          "task_sha256": "28f8fb4dbaca53d8301c980f89fc771a1ebd4ec8a3825e4090d8f2b80b526cf7"
+        }
+      ],
+      "representative": "8hb1_A",
+      "sequence_sha256": "9ad1153f9fc805eeab271ba78f87c83fe5f3c234045ca6465d9b7dc00e28906e"
+    },
+    {
+      "label_conflict": false,
+      "length": 23,
+      "records": [
+        {
+          "rna_id": "1nem_A",
+          "split": "RB9",
+          "task_sha256": "fe5f56d5ce5ff36e33790448a7089ede04cf453bc7c1465f699855f51f6ddc67"
+        },
+        {
+          "rna_id": "1nem_A",
+          "split": "TE18",
+          "task_sha256": "fe5f56d5ce5ff36e33790448a7089ede04cf453bc7c1465f699855f51f6ddc67"
+        }
+      ],
+      "representative": "1nem_A",
+      "sequence_sha256": "c19a887bb472e49b19e361391f042f89d0633790936c7f74438a54bed8dd5a1d"
+    },
+    {
+      "label_conflict": false,
+      "length": 23,
+      "records": [
+        {
+          "rna_id": "5v9z_A",
+          "split": "train",
+          "task_sha256": "8d1d5674770c13f28f7eebce3b8767c2c65243263b194aa3b1418993d49bf886"
+        },
+        {
+          "rna_id": "5v0o_A",
+          "split": "val",
+          "task_sha256": "8d1d5674770c13f28f7eebce3b8767c2c65243263b194aa3b1418993d49bf886"
+        }
+      ],
+      "representative": "5v9z_A",
+      "sequence_sha256": "bb32132c7d39cc25ee92a6e5c57ac39b337dc2df3d69613bf01c354438911578"
+    },
+    {
+      "label_conflict": true,
+      "length": 23,
+      "records": [
+        {
+          "rna_id": "2esi_A",
+          "split": "train",
+          "task_sha256": "d3c45a6ef896cc21ecdb33d1c3749df4e53931be9733949c1997c0f3586de28f"
+        },
+        {
+          "rna_id": "1yrj_A",
+          "split": "val",
+          "task_sha256": "fded0671a0867f31fd6824d3f890ecb2d5fde1a08b5ef52a09863dd2ae182502"
+        }
+      ],
+      "representative": "2esi_A",
+      "sequence_sha256": "9ee20b8338479c64ee2d8e99734ce06aa442292c45f9cc3c84bdc2fe6a616b63"
+    },
+    {
+      "label_conflict": true,
+      "length": 25,
+      "records": [
+        {
+          "rna_id": "1ei2_A",
+          "split": "train",
+          "task_sha256": "f369580c8927de758ab5c65c43327da7771aa38913d73fdcc7de3945b29b4100"
+        },
+        {
+          "rna_id": "2kgp_A",
+          "split": "train",
+          "task_sha256": "d62dbe37cf12ad8049ee3ebb07bc06f41b89cdc63bbff2b6555753938fb6aa33"
+        }
+      ],
+      "representative": "1ei2_A",
+      "sequence_sha256": "e35c8599c960a450716afb747ebb69b6d583c092880ea8d95fd4673058cd4d7a"
+    },
+    {
+      "label_conflict": true,
+      "length": 25,
+      "records": [
+        {
+          "rna_id": "6yl5_A",
+          "split": "train",
+          "task_sha256": "ad19afd5f2cb86b566cd1e9e7f6d8e6d9be0157e0a9b3961387da5a5dc8320bc"
+        },
+        {
+          "rna_id": "6ylb_A",
+          "split": "train",
+          "task_sha256": "fd2a0262b1d6ad6b505ac930b93c9ea41639108435530de589426fe8599f32a5"
+        },
+        {
+          "rna_id": "6ymk_A",
+          "split": "train",
+          "task_sha256": "7573c4ac97315579b938b59422fde17bbc686bcfabb7edc577711f360215e8bf"
+        },
+        {
+          "rna_id": "6yml_A",
+          "split": "train",
+          "task_sha256": "4216a41b73d7af864036ed657e804f0d62a1bb6ccb94cd7ce28f8e882d27596e"
+        },
+        {
+          "rna_id": "6ymm_A",
+          "split": "train",
+          "task_sha256": "7573c4ac97315579b938b59422fde17bbc686bcfabb7edc577711f360215e8bf"
+        },
+        {
+          "rna_id": "6ymj_A",
+          "split": "val",
+          "task_sha256": "717103494e62b3e3990dc383dd09a67ef45d9182c07f01de8d5f6778a403d322"
+        }
+      ],
+      "representative": "6yl5_A",
+      "sequence_sha256": "d36a87221d498da48f7f8a872b4c5f45bd6d01f4fc282c7b1360dd6a035e140e"
+    },
+    {
+      "label_conflict": true,
+      "length": 27,
+      "records": [
+        {
+          "rna_id": "1pbr_A",
+          "split": "RB9",
+          "task_sha256": "b1635401f4f3e12de80edb271c0587654ae7902e060686dd1616d1a8f787c778"
+        },
+        {
+          "rna_id": "2m4q_1",
+          "split": "train",
+          "task_sha256": "50e2f9425bb4c677fb519faf15a87bc2f95fb5fe2f97c0a5d7e900f055474fc1"
+        }
+      ],
+      "representative": "1pbr_A",
+      "sequence_sha256": "bbdab9cde9655d13304e9bbf2ad29392e5c6e58541cc9dc473f29b7b529f1eed"
+    },
+    {
+      "label_conflict": true,
+      "length": 27,
+      "records": [
+        {
+          "rna_id": "2kxm_A",
+          "split": "train",
+          "task_sha256": "b0bdbb828f678cc00efb8fd97f01613815f74bb19477c7486d7dff98c9e89ff8"
+        },
+        {
+          "rna_id": "2mxs_A",
+          "split": "train",
+          "task_sha256": "40c84ba8cc50758e06fe526292d38ef223548c3cd4ebcacb6428d14188f94dad"
+        },
+        {
+          "rna_id": "2n0j_A",
+          "split": "train",
+          "task_sha256": "01495c640bcde3fcdbd7bfdc548750d0ced735d99f291cefaa56e262e11e57d4"
+        }
+      ],
+      "representative": "2kxm_A",
+      "sequence_sha256": "8d43abef35e79b86af8a0296b95c099f6aa6d1858eb0378f680f00acd412805f"
+    },
+    {
+      "label_conflict": true,
+      "length": 28,
+      "records": [
+        {
+          "rna_id": "6v9d_B",
+          "split": "train",
+          "task_sha256": "3781c3f7a9eae36f9c4f975b102110b021b8eb3826efd5b4ff30a01137b2c77d"
+        },
+        {
+          "rna_id": "6v9b_B",
+          "split": "val",
+          "task_sha256": "1684dae61d23c06a7d12e42312cbea2a5912db38c5d95e3d0cd776c93e2ec034"
+        }
+      ],
+      "representative": "6v9d_B",
+      "sequence_sha256": "363e201669deb4c9cd373a2548561b040277bcca8909491bb6f8c97d2bf50f77"
+    },
+    {
+      "label_conflict": true,
+      "length": 29,
+      "records": [
+        {
+          "rna_id": "1uui_B",
+          "split": "RB9",
+          "task_sha256": "98e14ac13c8afb488584fd71d3b1154f676580c445ef17274a5a3150e2209cb2"
+        },
+        {
+          "rna_id": "1arj_N",
+          "split": "train",
+          "task_sha256": "16ab48e77a84021a891bee004c54e87efd240c1e44d4b89207bfc9f9ec52b308"
+        },
+        {
+          "rna_id": "1uts_B",
+          "split": "train",
+          "task_sha256": "64cdf6e31058e0d1f6f50061e449e6fadfe49a2ef930bdf1e6c4b7927134c04b"
+        },
+        {
+          "rna_id": "1uud_B",
+          "split": "train",
+          "task_sha256": "d9fc031d92ce3080750031df74f1dec88d0bb715e1e4990d6616536cc8eae9be"
+        },
+        {
+          "rna_id": "2l8h_A",
+          "split": "train",
+          "task_sha256": "bfd0e45ed8ff4c2e01d7b73f055a962a03a5d34f73fc0b4fd8b471ef84142931"
+        }
+      ],
+      "representative": "1uui_B",
+      "sequence_sha256": "009a3155c2070b7e2bc7fe4b01041587c3baab2a9836a546f93403572b2f4f52"
+    },
+    {
+      "label_conflict": true,
+      "length": 30,
+      "records": [
+        {
+          "rna_id": "1aju_A",
+          "split": "train",
+          "task_sha256": "bc54e1a043658e478a50b3312a041feb04945e12f8a2157dc9416317c29e14c0"
+        },
+        {
+          "rna_id": "1akx_A",
+          "split": "train",
+          "task_sha256": "4cbd9f606609ac6021e7704ec12d783e3f4021b3d9d42731397a42d93eb9c486"
+        }
+      ],
+      "representative": "1aju_A",
+      "sequence_sha256": "917ae0fb1cfeddc3a4f4d9bb204f2a1aee9903c3c300be70d6cbdf21ff773178"
+    },
+    {
+      "label_conflict": true,
+      "length": 31,
+      "records": [
+        {
+          "rna_id": "6e1u_A",
+          "split": "train",
+          "task_sha256": "a68f6c0841f570f1746298caebdbe0add72abcde60d6f832f7205dfdd0779823"
+        },
+        {
+          "rna_id": "6e1w_A",
+          "split": "train",
+          "task_sha256": "c0a407c535d79802f46446f4928fec63026579b8f01a17beb7e2a1b64d07cb20"
+        },
+        {
+          "rna_id": "7e9e_A",
+          "split": "train",
+          "task_sha256": "f73069edfcd671ffe77c21a928901bb01ff6b920cf74a4f2e4238e336f9f56b6"
+        },
+        {
+          "rna_id": "6e1s_A",
+          "split": "val",
+          "task_sha256": "f5b5ea1ab038be19d9f1ea5673e015dc628693fdcbb6d4e655aa89fce19839af"
+        }
+      ],
+      "representative": "6e1u_A",
+      "sequence_sha256": "83b5fee579b06606b02068f781b63011409d67142b8a19eaadb59fd7e1b7dc3f"
+    },
+    {
+      "label_conflict": true,
+      "length": 33,
+      "records": [
+        {
+          "rna_id": "3gca_A",
+          "split": "train",
+          "task_sha256": "44d1f0725db877dc04cf2cd847bd3835d8bf4424fee480a132022d4749f37cfb"
+        },
+        {
+          "rna_id": "3q50_A",
+          "split": "train",
+          "task_sha256": "4114bb85514381784191891122049e916a48bc0fcf3b87f1d4ff8edd7f0d091d"
+        },
+        {
+          "rna_id": "6vui_A",
+          "split": "train",
+          "task_sha256": "121cfeec97b2ec028e233deb7f18eabbadc2ab559a012063b402f6db0a698848"
+        },
+        {
+          "rna_id": "7e9i_A",
+          "split": "train",
+          "task_sha256": "49d572d50515758a120df9aa9c766cbfce3999bd268ed70c62b357b5595c56d7"
+        }
+      ],
+      "representative": "3gca_A",
+      "sequence_sha256": "74587d4e5f92cb8e93340faef67356fa1592fa31850000046a6554e92de644d8"
+    },
+    {
+      "label_conflict": true,
+      "length": 33,
+      "records": [
+        {
+          "rna_id": "8d28_B",
+          "split": "train",
+          "task_sha256": "4684e250e6f7d5966f1338704dc9f80561c68887c5d2f709480e89c66213acdf"
+        },
+        {
+          "rna_id": "8d2a_A",
+          "split": "train",
+          "task_sha256": "ddd480d2e402b4df9cfddb82b324928fdc875cf495bea2bb4b3aa8219adebb31"
+        },
+        {
+          "rna_id": "8d5l_A",
+          "split": "train",
+          "task_sha256": "485f99b161c1ac492959b9ce55dbe4b83043f03e2b216cd8a317d0ee6c23e465"
+        },
+        {
+          "rna_id": "8d5o_A",
+          "split": "train",
+          "task_sha256": "d48052867d5d6df06ec6e9c92c759e2d7e30b756c0b0b431981b193664dda858"
+        }
+      ],
+      "representative": "8d28_B",
+      "sequence_sha256": "cce6037d72c1a636fbaf380994331f10bd891279a175bb459f511b088cafd889"
+    },
+    {
+      "label_conflict": true,
+      "length": 33,
+      "records": [
+        {
+          "rna_id": "1eht_A",
+          "split": "train",
+          "task_sha256": "4c6489fad9b7cb9063af26fb79975623553e71c1749594d6f00a3d5c14a83c67"
+        },
+        {
+          "rna_id": "1o15_A",
+          "split": "val",
+          "task_sha256": "26452e56111535ec045f324062b09adbce20072095b00a9f8748de62cfac94b6"
+        }
+      ],
+      "representative": "1eht_A",
+      "sequence_sha256": "a46732703b3efe46f02790e0c2ff26fefafd27ab2e14aedf50e10a57c1a25696"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "6c63_A",
+          "split": "train",
+          "task_sha256": "2acfd6f4c60699eba1193481f3c861c717bf4b0112b87ece67bd058d8a7cc626"
+        },
+        {
+          "rna_id": "6c64_A",
+          "split": "train",
+          "task_sha256": "dd24b01d1971c6f391826b4cba8da8f23f87e8e412f6f193bd15fff8f67bcec3"
+        },
+        {
+          "rna_id": "8u5k_A",
+          "split": "train",
+          "task_sha256": "ed1e221ebfcf4378b387a740866b2e6a046f578f5ad604d2d5a9f6dbb0b30c98"
+        },
+        {
+          "rna_id": "8u5p_A",
+          "split": "train",
+          "task_sha256": "39b1c838c15f38a01e3abdbcfc9f98a5bc67e8cf2b6f23a3823d9e1fe0a960b3"
+        }
+      ],
+      "representative": "6c63_A",
+      "sequence_sha256": "0bdbf96ead2bceb94db9fe5b026b7364b70e5559c92c1e3704226d6567c1b1da"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "8u5t_A",
+          "split": "train",
+          "task_sha256": "33ef00028c36fd051d4539bcc0948fd83ff0c1bfa1b7e2500c9935a1bb0faf52"
+        },
+        {
+          "rna_id": "8u5z_A",
+          "split": "train",
+          "task_sha256": "24856fa5df32ea030673a06cc1e44cca6957d8d9d0b555824161c07d7b6c7799"
+        }
+      ],
+      "representative": "8u5t_A",
+      "sequence_sha256": "e3351fd63bae44d5bf0c4cfdbab298c4cdbba2e5e90ef917ec43c80e1fcf62a1"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "5bjp_E",
+          "split": "train",
+          "task_sha256": "184e85a5ce31b437064e4a5f5556bcfb2cb7f944ad1469d729cc648c72fb98e3"
+        },
+        {
+          "rna_id": "6e81_A",
+          "split": "train",
+          "task_sha256": "29f1ff26bbdf0bb4ca0dd8eccb036c3d61caee966471b2600580eaedfcb23ce4"
+        },
+        {
+          "rna_id": "6e84_A",
+          "split": "train",
+          "task_sha256": "58f98e947c2ec6ec30eeecab9d76dce3e4e36550315faf33dd7f326a57b8e760"
+        }
+      ],
+      "representative": "5bjp_E",
+      "sequence_sha256": "4b413a46a00c26bb7ca8ee63c710aab5fe39c62f018465beb36f9bedc79c6861"
+    },
+    {
+      "label_conflict": true,
+      "length": 37,
+      "records": [
+        {
+          "rna_id": "6pq7_C",
+          "split": "train",
+          "task_sha256": "4ff698f60d259211bc560f5b5ef84ee2fb7ed8c48826b2f1882f269d627c4b6b"
+        },
+        {
+          "rna_id": "6e8u_B",
+          "split": "val",
+          "task_sha256": "660d4fb5ce376f62531de254bf81357afcfda63e416be19997efba5f6291959a"
+        }
+      ],
+      "representative": "6pq7_C",
+      "sequence_sha256": "8fec838937617b7777cb2eebfab0a924874e504776946f8c7f7535b71c4c3be2"
+    },
+    {
+      "label_conflict": false,
+      "length": 38,
+      "records": [
+        {
+          "rna_id": "1q8n_A",
+          "split": "RB9",
+          "task_sha256": "0a574d49992aefff8a3eaa7698daeef04b4ebceb18081035c1e83688b449a899"
+        },
+        {
+          "rna_id": "1q8n_A",
+          "split": "TE18",
+          "task_sha256": "0a574d49992aefff8a3eaa7698daeef04b4ebceb18081035c1e83688b449a899"
+        }
+      ],
+      "representative": "1q8n_A",
+      "sequence_sha256": "c67ca09a644d991f4a901efe5479d8c5148e0a2089a7ddec1e11bdbbdb0b6258"
+    },
+    {
+      "label_conflict": true,
+      "length": 45,
+      "records": [
+        {
+          "rna_id": "7elq_A",
+          "split": "TL12",
+          "task_sha256": "f945ee43f01d64a482db03c62d7bb33c5b45138ec546222c955643160b39b567"
+        },
+        {
+          "rna_id": "7elp_A",
+          "split": "train",
+          "task_sha256": "e55f55799348cd85e628a7f7a49a5039387b1b83ba7a180e59f44d94efc42ee9"
+        }
+      ],
+      "representative": "7elq_A",
+      "sequence_sha256": "e8adc295467371b31fd46cc1fbff0ead4ebab1908e76d34cb6cd1841f7a44b18"
+    },
+    {
+      "label_conflict": false,
+      "length": 45,
+      "records": [
+        {
+          "rna_id": "8eyu_B",
+          "split": "train",
+          "task_sha256": "729c71709d3067ea83da9a24cf1b097249a3394045a977323ede15e15546a443"
+        },
+        {
+          "rna_id": "8eyv_A",
+          "split": "train",
+          "task_sha256": "729c71709d3067ea83da9a24cf1b097249a3394045a977323ede15e15546a443"
+        }
+      ],
+      "representative": "8eyu_B",
+      "sequence_sha256": "c746f1b02f8cce430e5756db62f61c6ad13ac93085dadd1b43a81b14200fbd9e"
+    },
+    {
+      "label_conflict": true,
+      "length": 48,
+      "records": [
+        {
+          "rna_id": "7eog_A",
+          "split": "TL12",
+          "task_sha256": "73e796dfc4da78dc2be94b11eb4f07a011733803542fb8a582ba79419f2f9446"
+        },
+        {
+          "rna_id": "7eol_A",
+          "split": "train",
+          "task_sha256": "ae10dda9ea22628aacb880bc1810038a43a4f762f9dcb4946b98df2472115fa7"
+        },
+        {
+          "rna_id": "7eom_A",
+          "split": "train",
+          "task_sha256": "aadce21d968a6d1c11e18fd7b7d22e6a5dc463561a4421ac71e0c7ed9fae0405"
+        },
+        {
+          "rna_id": "7eon_A",
+          "split": "train",
+          "task_sha256": "682b72a6ffb457c658c08b52f7edff9e6df41a7140d98699c9ad239db71e069a"
+        },
+        {
+          "rna_id": "7eoo_A",
+          "split": "train",
+          "task_sha256": "08450fa8791ec7c37ef4c68b289f223cb798d25616866c311bff69cafb5c3aff"
+        },
+        {
+          "rna_id": "7eop_A",
+          "split": "train",
+          "task_sha256": "682b72a6ffb457c658c08b52f7edff9e6df41a7140d98699c9ad239db71e069a"
+        },
+        {
+          "rna_id": "7eok_A",
+          "split": "val",
+          "task_sha256": "40d4893b0f0373080518eb1886f3290f38dc9cf2512158fd500583b98347170c"
+        }
+      ],
+      "representative": "7eog_A",
+      "sequence_sha256": "ebfd097b6621dc065e521c831618574d7db2bb6f33f95334153c82bdaba4f77b"
+    },
+    {
+      "label_conflict": true,
+      "length": 48,
+      "records": [
+        {
+          "rna_id": "6gzk_A",
+          "split": "train",
+          "task_sha256": "fedafd6cfc211623b6d1b8f9d1bf2784efb9f172090fbc136d78d529814ccaac"
+        },
+        {
+          "rna_id": "6gzr_A",
+          "split": "train",
+          "task_sha256": "7ea9a25d8b7ba3499f6b8e58da8e0b2d639fab707ca31dbc85bb102ee11b97a5"
+        }
+      ],
+      "representative": "6gzk_A",
+      "sequence_sha256": "be5fa2eaf52c9178ae8bb5cd29f33bb25da14f41b3479f273e5dc715b29463e3"
+    },
+    {
+      "label_conflict": true,
+      "length": 49,
+      "records": [
+        {
+          "rna_id": "8f0n_A",
+          "split": "TL12",
+          "task_sha256": "8412f437a57551f4355ffd4881732531ac6c3e9c7a79a34700373372dc7a47d1"
+        },
+        {
+          "rna_id": "8f0n_B",
+          "split": "train",
+          "task_sha256": "db6f933564c2d7e2cc2fbe0fc50f0c756090d4457333cd5129c7ea8c45788b3a"
+        }
+      ],
+      "representative": "8f0n_A",
+      "sequence_sha256": "8f659fd3a180d514305b03cac40b1ea9e8082280169c7af1e9bf9952d9b45676"
+    },
+    {
+      "label_conflict": true,
+      "length": 49,
+      "records": [
+        {
+          "rna_id": "7wib_V",
+          "split": "train",
+          "task_sha256": "a4125060cfba06f5251863f69aa9aa4b8c93baef468ec97df94d86aff7d75d45"
+        },
+        {
+          "rna_id": "7wif_V",
+          "split": "train",
+          "task_sha256": "53a2ebe18828d703e7b219e52f9ab8b749fcdd07a44b92e9c0fb8fe78c894c1e"
+        },
+        {
+          "rna_id": "7wii_V",
+          "split": "train",
+          "task_sha256": "36a9e000433a6f79efc0173407c86a1a2eea29c9cf16e556e9c461ddc6017819"
+        }
+      ],
+      "representative": "7wib_V",
+      "sequence_sha256": "e65a3414b8827a46f5f7e46fecfd15f97033f0e96ddf5323cbae303089a0b44a"
+    },
+    {
+      "label_conflict": true,
+      "length": 50,
+      "records": [
+        {
+          "rna_id": "7d81_A",
+          "split": "train",
+          "task_sha256": "5008542f69001e5fdefbf7645039733635e47a9d3eb22b1d9413880f81de446e"
+        },
+        {
+          "rna_id": "7d82_A",
+          "split": "train",
+          "task_sha256": "0c76305b32acbb759a991c81298cd9446937e0ad027d9fb45389de00f871abe9"
+        }
+      ],
+      "representative": "7d81_A",
+      "sequence_sha256": "0220156db9de808ac264827acbcfdfc3e5f57740b7ea6ac6be5e513af0363b16"
+    },
+    {
+      "label_conflict": true,
+      "length": 51,
+      "records": [
+        {
+          "rna_id": "7oa3_A",
+          "split": "TL12",
+          "task_sha256": "2a884d2bc4dfc3e37d1213f36f37a42659ec491d1fc5a08a28b364f10754e1d5"
+        },
+        {
+          "rna_id": "7oav_A",
+          "split": "train",
+          "task_sha256": "c6cc62623351a2ce0a7c90ebb3a9c73c51e9a1f0b54c9210f9e14e79732ee6c2"
+        },
+        {
+          "rna_id": "7oax_A",
+          "split": "train",
+          "task_sha256": "0f7299fc8c0cac438e77628ead6d94d1e300af4b033ee03c7bd69a37e1874dc8"
+        }
+      ],
+      "representative": "7oa3_A",
+      "sequence_sha256": "4f104e5d843851347993ea08ff0e26b319fa0ccb84bd2f89452000873e2d3d82"
+    },
+    {
+      "label_conflict": true,
+      "length": 51,
+      "records": [
+        {
+          "rna_id": "7d7w_A",
+          "split": "train",
+          "task_sha256": "a872b865dcd2d06a11fdbea09c37b09a18770b38fc52eeaae0477aeda8c79ceb"
+        },
+        {
+          "rna_id": "7d7x_A",
+          "split": "train",
+          "task_sha256": "10ea140466ee5fd38b8b690679366c49b98cfa6bdeb3f5722c07dadecd6e9c65"
+        },
+        {
+          "rna_id": "7d7z_A",
+          "split": "train",
+          "task_sha256": "87f123c4735d7053ea3aab430a1b1950e5659a7d1834b1afd65cb3dd1b990cff"
+        }
+      ],
+      "representative": "7d7w_A",
+      "sequence_sha256": "1cb24eda5096a47801e2f9ab075e3abe73d95d656080488231e63eef3a2c9e67"
+    },
+    {
+      "label_conflict": true,
+      "length": 51,
+      "records": [
+        {
+          "rna_id": "6tf0_A",
+          "split": "val",
+          "task_sha256": "b4d70f7f8a68432893985becb0454136b8526665ae655d519596fa8bf708ea4b"
+        },
+        {
+          "rna_id": "6tfh_A",
+          "split": "val",
+          "task_sha256": "fb284d6423f50268a4b99698321413a329b0fc8498f0ed108b27a51b1346c2c9"
+        }
+      ],
+      "representative": "6tf0_A",
+      "sequence_sha256": "f3046cd4a75c5b048e40c0203396d7dde6671209fdf05555b08eafd5c5054020"
+    },
+    {
+      "label_conflict": true,
+      "length": 52,
+      "records": [
+        {
+          "rna_id": "6tf1_A",
+          "split": "train",
+          "task_sha256": "e78d8d1044a9a48cde2ceca8a0eac59fa6e4994ddb119144e46a11cd1095562b"
+        },
+        {
+          "rna_id": "6tf2_A",
+          "split": "train",
+          "task_sha256": "d50dbd5005904f4166c759dc6bde244aaedd433432958411526b4cf6a68597e8"
+        },
+        {
+          "rna_id": "6tf3_A",
+          "split": "train",
+          "task_sha256": "bce0e69fd9732b0e76c0d8ded255d3c38dd02c6290c8f306c41128f00bff8645"
+        },
+        {
+          "rna_id": "6tfe_A",
+          "split": "train",
+          "task_sha256": "0b73e2e046cec61e1c8339ee814172d13a54e67132dceebc4615a9119eb69cfa"
+        },
+        {
+          "rna_id": "6tff_A",
+          "split": "train",
+          "task_sha256": "de2bc5d69224308e9f428a8234fd8e23517bc8a857ecdb7b037f34738bf0000a"
+        },
+        {
+          "rna_id": "6tfg_A",
+          "split": "train",
+          "task_sha256": "7273bf06d924092be62215133747b8c96044a8f3a1662808248fbff1d73d015d"
+        }
+      ],
+      "representative": "6tf1_A",
+      "sequence_sha256": "0c42b5e033599d470b1bf580d2c74f13541033ce31d43f5c35377d42229aba30"
+    },
+    {
+      "label_conflict": true,
+      "length": 52,
+      "records": [
+        {
+          "rna_id": "3e5c_A",
+          "split": "train",
+          "task_sha256": "a9aed90886340f9bb798744b22bcee2c03a2a2fad823cbe1e6e8e9f5323596f4"
+        },
+        {
+          "rna_id": "3e5e_A",
+          "split": "train",
+          "task_sha256": "e477f3b36de4c979ff1d1f17417159b3826393b6d46f69edc8085adb056d226a"
+        },
+        {
+          "rna_id": "3e5f_A",
+          "split": "train",
+          "task_sha256": "a9aed90886340f9bb798744b22bcee2c03a2a2fad823cbe1e6e8e9f5323596f4"
+        }
+      ],
+      "representative": "3e5c_A",
+      "sequence_sha256": "e92721c2e4378ac5f329e5d29af524a5bc5d6e19bd7a4c237382743ecfac5a7a"
+    },
+    {
+      "label_conflict": true,
+      "length": 53,
+      "records": [
+        {
+          "rna_id": "5kx9_X",
+          "split": "train",
+          "task_sha256": "f7b45a3c6268c457aa2ce743d1f033d4984178f3ea01838888daba03a6fed822"
+        },
+        {
+          "rna_id": "6dn2_X",
+          "split": "train",
+          "task_sha256": "3830b6f17d7f1757f1109b7caf8cccc050f6a1b6bf7e996f4c5e284a0f4dea04"
+        }
+      ],
+      "representative": "5kx9_X",
+      "sequence_sha256": "56f62ef02f40e00eca8801c042521b44074ec731550e12b69139f00e460dd01b"
+    },
+    {
+      "label_conflict": true,
+      "length": 54,
+      "records": [
+        {
+          "rna_id": "6lau_A",
+          "split": "train",
+          "task_sha256": "68b7b43f4f06bbebbe2c4fe0b81a3ddf5f6128f3b7d8f0def21160c3de31e0e9"
+        },
+        {
+          "rna_id": "6laz_A",
+          "split": "val",
+          "task_sha256": "a795198a77d9fef33b15b06c0e0d743d246ce8795d747824bb3c51927071fff5"
+        }
+      ],
+      "representative": "6lau_A",
+      "sequence_sha256": "a37b0ac9c83d85845be852966096a0aa8be3773daddef38fa4ef38d8cacbbadb"
+    },
+    {
+      "label_conflict": true,
+      "length": 54,
+      "records": [
+        {
+          "rna_id": "3f4e_X",
+          "split": "train",
+          "task_sha256": "58f2030a396e46253283deeedd6be0bb7606c845554931a2e2aa3a274fc329e1"
+        },
+        {
+          "rna_id": "3f4g_X",
+          "split": "train",
+          "task_sha256": "b3aaa4d177bbb93fda7efa9f4fe30545e7115fe7cc2f52adac7b544005811767"
+        },
+        {
+          "rna_id": "5c45_X",
+          "split": "train",
+          "task_sha256": "da369bf0ee87f452849d7f41e671d5de67aa7600b73e6b6414642e0bb099401e"
+        },
+        {
+          "rna_id": "6bfb_X",
+          "split": "train",
+          "task_sha256": "98b0ccd4640b50492af48dd583d570244ffaf98b85c58d80a0af3ef9582fcecc"
+        },
+        {
+          "rna_id": "6dn3_X",
+          "split": "train",
+          "task_sha256": "805ef82574f703692067e8f1d3e5a951f8db1f80a2767ddc535645eb2d373cfd"
+        }
+      ],
+      "representative": "3f4e_X",
+      "sequence_sha256": "d51a50adf2790e4d79a4c8a982def7bc2b9a5f5a61d8196361c218f940f4d990"
+    },
+    {
+      "label_conflict": true,
+      "length": 60,
+      "records": [
+        {
+          "rna_id": "8gxb_A",
+          "split": "train",
+          "task_sha256": "d0603d4881d4adc0d7c90be59909c611c0264b0f91d50ada29966c1e1bcbc939"
+        },
+        {
+          "rna_id": "8gxc_A",
+          "split": "train",
+          "task_sha256": "9d14bcfbf64f27ce011404d135c110d8e8bd341d6d0486acac088c00e337b4c9"
+        }
+      ],
+      "representative": "8gxb_A",
+      "sequence_sha256": "ed405b00a7a9ccfef0e77aea7be89866d383f3f028982dba0077b51609038188"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "1evv_A",
+          "split": "train",
+          "task_sha256": "fe3c6d3bbe4dd5fa989b36a4e61cdbe0fbbb54b6f67206327283c6fd3a288336"
+        },
+        {
+          "rna_id": "1tn1_A",
+          "split": "train",
+          "task_sha256": "ed8f66ab09a3f08908c9fb433a7f89cfd9251d81ad2862152686a3341417668e"
+        },
+        {
+          "rna_id": "1tn2_A",
+          "split": "train",
+          "task_sha256": "ed8f66ab09a3f08908c9fb433a7f89cfd9251d81ad2862152686a3341417668e"
+        }
+      ],
+      "representative": "1evv_A",
+      "sequence_sha256": "f168fc0abd6d4381a09d4f30da66320933bb2c44a83068bef3f677d2e5a37021"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "3skt_A",
+          "split": "train",
+          "task_sha256": "544b633298f41a5ff2b1232499f16508770afa12cd323e438b109cd75a0a5b9f"
+        },
+        {
+          "rna_id": "3skw_A",
+          "split": "train",
+          "task_sha256": "192f8a8ff3d0b541b2fe05f37be5b5b75ebe5e2ada4def814d8de5988f9dfe64"
+        },
+        {
+          "rna_id": "3skl_A",
+          "split": "val",
+          "task_sha256": "5ca4009e7c0d7ef9d00843411c5f45cc09ef18de70c35e28466d8ea2d6ed46b1"
+        },
+        {
+          "rna_id": "3skr_A",
+          "split": "val",
+          "task_sha256": "e8ab46b5d66963d3744b4cfd5e3864bf94a39fb4d397e9632d9ab3996f509f3c"
+        }
+      ],
+      "representative": "3skt_A",
+      "sequence_sha256": "d0722d5bb8705deedcae52ada9b036c5e7c7347ac15823ee8d1a7d76f128f71f"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "4xwf_A",
+          "split": "train",
+          "task_sha256": "6b2aa046b00b548dfb656a600c9b5ac9e21bc3f7c355e1b985bc7948c364498e"
+        },
+        {
+          "rna_id": "4xw7_A",
+          "split": "val",
+          "task_sha256": "02e15b5d514938d651d40df9aca0606813f677b83fac69fa8952b4ad15dbdccf"
+        }
+      ],
+      "representative": "4xwf_A",
+      "sequence_sha256": "3ad45f7bed06509243666efc1d024abcdd667571c8febcd440940b404741f822"
+    },
+    {
+      "label_conflict": true,
+      "length": 66,
+      "records": [
+        {
+          "rna_id": "3ski_A",
+          "split": "train",
+          "task_sha256": "ebee83c8547be0da142422037be309115ba2a6ba3957dc7aca6696c0fef59e73"
+        },
+        {
+          "rna_id": "3skz_A",
+          "split": "train",
+          "task_sha256": "50eaeff9d5bc34d423e71c92967dd088e5e31f01c8180e3d1e2a9fbe670c016e"
+        },
+        {
+          "rna_id": "3slq_A",
+          "split": "train",
+          "task_sha256": "ef440cf425c25a3607c3b16ff1816d616dd9850a0aeded15b0ce7012d87b7fbd"
+        }
+      ],
+      "representative": "3ski_A",
+      "sequence_sha256": "9a25d1fa03c8f7b59bc42f3608243088068f8ce4bc47760094d6130c785f3f31"
+    },
+    {
+      "label_conflict": true,
+      "length": 67,
+      "records": [
+        {
+          "rna_id": "3fo6_A",
+          "split": "train",
+          "task_sha256": "5edc474fd69e93533ab2298861e9fdaa685b38ac634150550d3330a2ebb66424"
+        },
+        {
+          "rna_id": "3ger_A",
+          "split": "train",
+          "task_sha256": "ce9de5d4607fec9cbc84b7e0aac5020c9fd4e3bc35c6c7479796098a67f2992f"
+        },
+        {
+          "rna_id": "6uc7_B",
+          "split": "train",
+          "task_sha256": "13ae84eed345426e9239a09bd3428b807d33a259cd1309fc52d9cdb060a9dbb4"
+        },
+        {
+          "rna_id": "6uc9_B",
+          "split": "train",
+          "task_sha256": "855c78d8ddf86b008a28b2d7256318e8476a8c66267dce0290f6693d48eaef5a"
+        },
+        {
+          "rna_id": "6uc8_B",
+          "split": "val",
+          "task_sha256": "68c52ac39f23733276b7a924f839a3fa451c68dd43716f02b9df021c5e8595f8"
+        }
+      ],
+      "representative": "3fo6_A",
+      "sequence_sha256": "8a39f41d423e18b52f5d41f0f9651ccd49dc4feea6b6e805cc393ce37c222311"
+    },
+    {
+      "label_conflict": true,
+      "length": 69,
+      "records": [
+        {
+          "rna_id": "7l0z_G",
+          "split": "TL12",
+          "task_sha256": "35043801a273b663b2d0d3f24a1b4011fbdd40cf3c6076b2c11554238e67a947"
+        },
+        {
+          "rna_id": "5ob3_A",
+          "split": "train",
+          "task_sha256": "76041b6096a05145d53ebfae52dc9f8ef0d8af9bff2b02385c6b9627345aef26"
+        }
+      ],
+      "representative": "7l0z_G",
+      "sequence_sha256": "dd915b70e493f3491bc3735c1713fdb9f888d01a3e3428bed6e1897d764a1bba"
+    },
+    {
+      "label_conflict": true,
+      "length": 76,
+      "records": [
+        {
+          "rna_id": "5d5l_A",
+          "split": "train",
+          "task_sha256": "29fdd23ee1eb2ff481c3c5e3a64d74a5079a634b2721109cfaaf68b3aa897494"
+        },
+        {
+          "rna_id": "5d5l_D",
+          "split": "train",
+          "task_sha256": "d2150fc3402d27e3adf1bc47f8ce54073d698f0918e27b0deb48d949ea0b8340"
+        }
+      ],
+      "representative": "5d5l_A",
+      "sequence_sha256": "5a0d1d1576d3bce55911cb8d01d78b651a5b54e833896b650ba177b52f97605c"
+    },
+    {
+      "label_conflict": true,
+      "length": 77,
+      "records": [
+        {
+          "rna_id": "3d2x_A",
+          "split": "RB9",
+          "task_sha256": "99b3aabd1b97672dee871292d39a7d5fcea9917aa48d24d6d6459b5abd884460"
+        },
+        {
+          "rna_id": "2cky_A",
+          "split": "train",
+          "task_sha256": "394c91726236b0f44c9d4216624ca1ae1a119baa47b390590285199933d289e5"
+        },
+        {
+          "rna_id": "3d2g_A",
+          "split": "train",
+          "task_sha256": "f83f13e84febe6789bbeb40dd5c47c36bed50a6557cf90d504e4dfe44d4a30df"
+        },
+        {
+          "rna_id": "3d2v_A",
+          "split": "train",
+          "task_sha256": "46b266e98a62c528d4d2cd6ed3cbcbcb367baacffbc197558af00cbeedd52962"
+        }
+      ],
+      "representative": "3d2x_A",
+      "sequence_sha256": "aa3a7fd94c15224490e18845b7468593fb38d62d9cc470a7260332040ab85c16"
+    },
+    {
+      "label_conflict": true,
+      "length": 78,
+      "records": [
+        {
+          "rna_id": "7tzr_X",
+          "split": "JL10",
+          "task_sha256": "d33925cfceb94cda2f7644a2a74d1d2d8fe7658881f3b468b4155dc3cd3a73ad"
+        },
+        {
+          "rna_id": "2gdi_X",
+          "split": "RB9",
+          "task_sha256": "07c8f70758d81c0a88397814dbf42fd7d505bf36aea4e0346dad2061bdf549a1"
+        },
+        {
+          "rna_id": "4nya_A",
+          "split": "train",
+          "task_sha256": "11c48c7342bc3d1a644bfd68ac902c1a5ac420e37e35bb8462c57d981b504017"
+        }
+      ],
+      "representative": "7tzr_X",
+      "sequence_sha256": "f171941c6bc1d218a6f20b09bea90bcbfa9d51aff16bdb6ffa8aff0816f1d6c1"
+    },
+    {
+      "label_conflict": true,
+      "length": 78,
+      "records": [
+        {
+          "rna_id": "2hoj_A",
+          "split": "train",
+          "task_sha256": "ba1f8389156bd5ba4c9c69659e6a782e5aee76b8d05bfe19a69b80521492e122"
+        },
+        {
+          "rna_id": "4nyg_A",
+          "split": "train",
+          "task_sha256": "809cacdecc3ede7dd4288e157f42158f83d47cfedacffef0b9768840c22f0962"
+        }
+      ],
+      "representative": "2hoj_A",
+      "sequence_sha256": "8237b752b1e13493f2675f541897fcd624c2bd5c6676d10c83940710c5173790"
+    },
+    {
+      "label_conflict": true,
+      "length": 79,
+      "records": [
+        {
+          "rna_id": "7tzt_A",
+          "split": "train",
+          "task_sha256": "e3f592c22495604ea3d584f9273922d19ea6b8681c4ea60bf2114210b2783c26"
+        },
+        {
+          "rna_id": "2hol_A",
+          "split": "val",
+          "task_sha256": "389bf50f329d0ea1ba9a6d9979d632db5430e02d0b20d9c26eec9cfbab806d1c"
+        },
+        {
+          "rna_id": "7tzu_A",
+          "split": "val",
+          "task_sha256": "77122a7b498804a6253fef8b368f3df801652eeadd147dae58423ac17a2ff1c0"
+        }
+      ],
+      "representative": "7tzt_A",
+      "sequence_sha256": "30ea7dca24b51cdec8d7e1a9fba76be7eaec7a84e39562edfb66af0612c4ce02"
+    },
+    {
+      "label_conflict": true,
+      "length": 79,
+      "records": [
+        {
+          "rna_id": "7tda_A",
+          "split": "train",
+          "task_sha256": "5822ab8280266a35e4208e87a447dd4bb9a318249e2bc4fc2195d81b24fea85b"
+        },
+        {
+          "rna_id": "7tdb_A",
+          "split": "train",
+          "task_sha256": "fbad5d89f365a2f16a6ffed316d04dd757f694f358a2f9ab21cf706cae5bbb06"
+        },
+        {
+          "rna_id": "7tdc_A",
+          "split": "train",
+          "task_sha256": "02b07f7f0c89fa5ef7dae77b5fb442ce9f448945bd3d8858b0c35c519f486456"
+        },
+        {
+          "rna_id": "4nyb_A",
+          "split": "val",
+          "task_sha256": "4e97476b49231ce8125cdf7a5285a69e6ebf2e8a868b23f4d5de39c6990ae7cc"
+        }
+      ],
+      "representative": "7tda_A",
+      "sequence_sha256": "05c70fcb4a8a6f382c2703dbafcd711119ee8378a2d3be2c9512ea2871825bfb"
+    },
+    {
+      "label_conflict": true,
+      "length": 82,
+      "records": [
+        {
+          "rna_id": "7kvu_G",
+          "split": "JL10",
+          "task_sha256": "7c0a02defa2c9089a13b44ef9001d092b220f729380af18437d629d900105121"
+        },
+        {
+          "rna_id": "7kvv_D",
+          "split": "train",
+          "task_sha256": "2266d4fc9397d2de72aede4849e6c56f1cad05d81e136a6b780579319e344287"
+        },
+        {
+          "rna_id": "7kvt_B",
+          "split": "val",
+          "task_sha256": "0dfd4be3725bb8002f41ecf769b0f8facfe19c8e3eaf5a3bd1c6e554bac52c94"
+        }
+      ],
+      "representative": "7kvu_G",
+      "sequence_sha256": "529777021911172fbb76a1eb859a0ed257536045ee6fcbaddcadfd563b01ee64"
+    },
+    {
+      "label_conflict": true,
+      "length": 83,
+      "records": [
+        {
+          "rna_id": "4kzd_R",
+          "split": "train",
+          "task_sha256": "caaaaea8adcc5a32c5ce678f4217d9c8d438d127cc78f04cbd24feca703ea676"
+        },
+        {
+          "rna_id": "4q9q_R",
+          "split": "train",
+          "task_sha256": "4d237545f8de3e9f23f9807e352048bf1a150f50ebd1d12a9f7386d69756576d"
+        },
+        {
+          "rna_id": "4q9r_R",
+          "split": "val",
+          "task_sha256": "8b4fd1b05049c0ae2b5bc426cacaaae16cccf8b09b9d628e94c8fd79ec594095"
+        }
+      ],
+      "representative": "4kzd_R",
+      "sequence_sha256": "96ecfa20abd7665658cf9bc92556949e5350834e7c438449902013f5b39b285f"
+    },
+    {
+      "label_conflict": true,
+      "length": 83,
+      "records": [
+        {
+          "rna_id": "4yaz_R",
+          "split": "TE18",
+          "task_sha256": "d61fe143ed750d45f6f447bd1f7a3b1daa1dac773891d33efab1650176e5d21c"
+        },
+        {
+          "rna_id": "4yb0_R",
+          "split": "train",
+          "task_sha256": "84da3e0156c75300745062624c5d9b60a8e28c7cb3d87d02142e102776abaa5d"
+        }
+      ],
+      "representative": "4yaz_R",
+      "sequence_sha256": "8ed36a956a53c0a5775a483484e01572878f96c28e92de7f23d42d95d6166840"
+    },
+    {
+      "label_conflict": true,
+      "length": 89,
+      "records": [
+        {
+          "rna_id": "4lvv_A",
+          "split": "train",
+          "task_sha256": "a3e0624348c803bb96202842e04d329f84f45aaa1d12bc9ac5cd898e2e1db4c3"
+        },
+        {
+          "rna_id": "4lvx_A",
+          "split": "train",
+          "task_sha256": "d05eb87a24143df4f93886f135da9a3768680e791c208d9cf5177f5f54c7aa13"
+        },
+        {
+          "rna_id": "4lvy_A",
+          "split": "train",
+          "task_sha256": "2e81fa08dbe22642f5368529ea85ac4c10cb7fa87fa4a7104ef448fcfe3effe0"
+        },
+        {
+          "rna_id": "6q57_A",
+          "split": "train",
+          "task_sha256": "6373954c922b2edcea2550cebbe7cadc750b448f40960d84169b973183347f43"
+        }
+      ],
+      "representative": "4lvv_A",
+      "sequence_sha256": "974f51da94729865209d77ea0328a5f6d9dcd2d165363cd1e56bbc9c795d2214"
+    },
+    {
+      "label_conflict": true,
+      "length": 94,
+      "records": [
+        {
+          "rna_id": "3gx2_A",
+          "split": "RB9",
+          "task_sha256": "dc807313eca6f40d879acccc3fe37c2a2b53e307234fa9c9508fa9238c541b1b"
+        },
+        {
+          "rna_id": "3gx3_A",
+          "split": "train",
+          "task_sha256": "6d6db3f304e34d1100ea9283d48aa4e9d9ede9014a4ac18236b7e762133c6dd1"
+        }
+      ],
+      "representative": "3gx2_A",
+      "sequence_sha256": "7f6472dc4f0dc3a6d2a6713e89cffc047deb661e197794e0d457df6ba17f25ad"
+    },
+    {
+      "label_conflict": true,
+      "length": 100,
+      "records": [
+        {
+          "rna_id": "6dmc_A",
+          "split": "train",
+          "task_sha256": "50bfe3807d9d78db5a77cb1f1d9a6f8cd9c3b347c9505653ec011e2cbb9d7209"
+        },
+        {
+          "rna_id": "6dmd_A",
+          "split": "train",
+          "task_sha256": "e3f1b938c384de9d872fa3776419ded92d949a312bc77f5739b928bc20baa992"
+        },
+        {
+          "rna_id": "6dme_A",
+          "split": "train",
+          "task_sha256": "7071ce5255715dc94dc85328fe6ab6117894458ec1cfce472648ebfb620b4057"
+        }
+      ],
+      "representative": "6dmc_A",
+      "sequence_sha256": "7bded05379d2f52f490acc710fe54c6d5bdc529eb7bf59c907528209efc4174b"
+    },
+    {
+      "label_conflict": true,
+      "length": 105,
+      "records": [
+        {
+          "rna_id": "6dlq_A",
+          "split": "train",
+          "task_sha256": "7ca3f85fcaa126cb5c47062b68b7ed915153d49d506f364e7eca9ed7bd25a5da"
+        },
+        {
+          "rna_id": "6dls_A",
+          "split": "train",
+          "task_sha256": "cd2db8ce0aa599b992a76b13334db4646f4804234882c7e1ea7b6c1d0e494f27"
+        },
+        {
+          "rna_id": "6dlt_A",
+          "split": "train",
+          "task_sha256": "856037f576223e2ab69971d840940c031f36477c6d8bd966af3f34f43804158a"
+        }
+      ],
+      "representative": "6dlq_A",
+      "sequence_sha256": "78c37a3f3dee9b1d5d01f51fbc6492e773505a01268bcfdf31778136320c70dd"
+    },
+    {
+      "label_conflict": true,
+      "length": 107,
+      "records": [
+        {
+          "rna_id": "3f2q_X",
+          "split": "train",
+          "task_sha256": "7b058ef0f64d0a09c00f285ffd77ebc4a85b02a0038b25df03e38b2eb082052b"
+        },
+        {
+          "rna_id": "3f2t_X",
+          "split": "train",
+          "task_sha256": "14ccc0e6c6cf4d8719f57f49286c8e0768c6a7fcb730ff9f4e10d5aa4c749ad8"
+        },
+        {
+          "rna_id": "3f2w_X",
+          "split": "train",
+          "task_sha256": "cf4eb6b4a08232223819b0ddfa07e354d4188b4a715fc03dd4bdb232d52f90a9"
+        },
+        {
+          "rna_id": "3f2x_X",
+          "split": "train",
+          "task_sha256": "992080a03b49fb15561c74896f0767d4a39ed0d141cfbce921bea01143c1e602"
+        },
+        {
+          "rna_id": "3f2y_X",
+          "split": "train",
+          "task_sha256": "a9500134d583f1a42dd3d95fc21bc58a54e310f7252c2df670821b9337254ad9"
+        },
+        {
+          "rna_id": "3f30_X",
+          "split": "val",
+          "task_sha256": "7807d3859b459cc136898cf358f05739bffab7792063baa8d33be58d881661ec"
+        }
+      ],
+      "representative": "3f2q_X",
+      "sequence_sha256": "e2681f8ff00f08713d8dc473f792282a631c307063bd760e5ab76eecf68bfac8"
+    }
+  ],
+  "summary": {
+    "raw_extra_records": 162,
+    "raw_groups": 76
+  },
+  "test": [
+    {
+      "label_conflict": false,
+      "length": 20,
+      "records": [
+        {
+          "rna_id": "2tob_A",
+          "split": "TE18",
+          "task_sha256": "7fafd06104f22f2809419b645375501ddebd2c971f71a2e42fbf7500702c187c"
+        },
+        {
+          "rna_id": "2tob_A",
+          "split": "RB9",
+          "task_sha256": "7fafd06104f22f2809419b645375501ddebd2c971f71a2e42fbf7500702c187c"
+        }
+      ],
+      "representative": "2tob_A",
+      "sequence_sha256": "9b738381504299b53a6a11619c5cb17dc6df814d2b9e1d427bbfe374c769eacc"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "2pwt_A",
+          "split": "TE18",
+          "task_sha256": "435e9a010e943a112983b86a02f13455b4bb188bc6c002df9a5f66092f1e609a"
+        },
+        {
+          "rna_id": "4f8u_B",
+          "split": "TE18",
+          "task_sha256": "879cea7f89efcaad24abe2a44e3af0fcee19ecafbd44b9a59bf59137b96c34f3"
+        }
+      ],
+      "representative": "2pwt_A",
+      "sequence_sha256": "aba75d864907ff836db14f0357625cec15b219f2a47cb6dc10a06ea0c187dcf0"
+    },
+    {
+      "label_conflict": false,
+      "length": 23,
+      "records": [
+        {
+          "rna_id": "1nem_A",
+          "split": "TE18",
+          "task_sha256": "fe5f56d5ce5ff36e33790448a7089ede04cf453bc7c1465f699855f51f6ddc67"
+        },
+        {
+          "rna_id": "1nem_A",
+          "split": "RB9",
+          "task_sha256": "fe5f56d5ce5ff36e33790448a7089ede04cf453bc7c1465f699855f51f6ddc67"
+        }
+      ],
+      "representative": "1nem_A",
+      "sequence_sha256": "c19a887bb472e49b19e361391f042f89d0633790936c7f74438a54bed8dd5a1d"
+    },
+    {
+      "label_conflict": false,
+      "length": 38,
+      "records": [
+        {
+          "rna_id": "1q8n_A",
+          "split": "TE18",
+          "task_sha256": "0a574d49992aefff8a3eaa7698daeef04b4ebceb18081035c1e83688b449a899"
+        },
+        {
+          "rna_id": "1q8n_A",
+          "split": "RB9",
+          "task_sha256": "0a574d49992aefff8a3eaa7698daeef04b4ebceb18081035c1e83688b449a899"
+        }
+      ],
+      "representative": "1q8n_A",
+      "sequence_sha256": "c67ca09a644d991f4a901efe5479d8c5148e0a2089a7ddec1e11bdbbdb0b6258"
+    },
+    {
+      "label_conflict": true,
+      "length": 78,
+      "records": [
+        {
+          "rna_id": "7tzr_X",
+          "split": "JL10",
+          "task_sha256": "d33925cfceb94cda2f7644a2a74d1d2d8fe7658881f3b468b4155dc3cd3a73ad"
+        },
+        {
+          "rna_id": "2gdi_X",
+          "split": "RB9",
+          "task_sha256": "07c8f70758d81c0a88397814dbf42fd7d505bf36aea4e0346dad2061bdf549a1"
+        }
+      ],
+      "representative": "7tzr_X",
+      "sequence_sha256": "f171941c6bc1d218a6f20b09bea90bcbfa9d51aff16bdb6ffa8aff0816f1d6c1"
+    }
+  ],
+  "training_candidates": [
+    {
+      "label_conflict": false,
+      "length": 5,
+      "records": [
+        {
+          "rna_id": "1n7a_A",
+          "split": "train",
+          "task_sha256": "2256292b1b40fb80b7ad2b6f01f9d01a1f610dacc610957715b5d0eeff3de719"
+        },
+        {
+          "rna_id": "1n7b_A",
+          "split": "train",
+          "task_sha256": "2256292b1b40fb80b7ad2b6f01f9d01a1f610dacc610957715b5d0eeff3de719"
+        }
+      ],
+      "representative": "1n7a_A",
+      "sequence_sha256": "cb106be503ee31158afbb9d7aa7aa2c7b902b4b8270e6d841f12b462a4b6ed61"
+    },
+    {
+      "label_conflict": true,
+      "length": 11,
+      "records": [
+        {
+          "rna_id": "5krg_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        },
+        {
+          "rna_id": "5v0h_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        },
+        {
+          "rna_id": "6c8m_A",
+          "split": "train",
+          "task_sha256": "dc0b62a7986bc94f1cbb88b4113f2d0a2bfa3485a84b8d54399d7140035d1093"
+        },
+        {
+          "rna_id": "6c8o_A",
+          "split": "train",
+          "task_sha256": "9a68c8599d702a4b55133a7775460de5f3b75afbe8da85f6e3057c4b379578a1"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "44ae903670ed9af52ee77729dc70ffc6c3461e139683787dfc53ea135722616c"
+    },
+    {
+      "label_conflict": true,
+      "length": 11,
+      "records": [
+        {
+          "rna_id": "6hmo_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8cf2_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8r62_A",
+          "split": "train",
+          "task_sha256": "f37c7a90495fed0c9a0294d14d217ab92008b9892ad51c274e6f9e06a28b3304"
+        },
+        {
+          "rna_id": "8r8p_A",
+          "split": "train",
+          "task_sha256": "61cb1e50087b46bbe89e558915d67c08a76d951751695992fdbe5ff26fcb56f7"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "1e353a747e2f935727857e03a4706442912960da101740c556b84de0c5ce9f9a"
+    },
+    {
+      "label_conflict": true,
+      "length": 14,
+      "records": [
+        {
+          "rna_id": "6jji_B",
+          "split": "train",
+          "task_sha256": "c73d928725e8df8e83ff92b0a435f5190006c640419835f51e61f74077fe66c2"
+        },
+        {
+          "rna_id": "6xrq_B",
+          "split": "train",
+          "task_sha256": "f1a568befb157951cab3b39e44b4808525b13f96e7214969e4ce82ca1bfaa46c"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "89b695737ee499932f5a2521dc82408fdc2676a9a71c9e8e6b00063285e7e581"
+    },
+    {
+      "label_conflict": true,
+      "length": 15,
+      "records": [
+        {
+          "rna_id": "1zz5_A",
+          "split": "train",
+          "task_sha256": "05e069d08ecf5dbe18df84f4653232c6e5297454d5505b8cb84136b9582414f1"
+        },
+        {
+          "rna_id": "2a04_A",
+          "split": "train",
+          "task_sha256": "8c19fffc7188dfd69782b1b2247144bf7cbd25e265c43bc9daed4e6c6705ec03"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "d26e412280cdde8889d71260a83a7891eda8ffb548740fc0c4bac4c9a0fbb3f7"
+    },
+    {
+      "label_conflict": true,
+      "length": 17,
+      "records": [
+        {
+          "rna_id": "6hbt_A",
+          "split": "train",
+          "task_sha256": "76269f65cb6756282de2fe9376fbc750e13bcbe95334257765c3407274d1e97b"
+        },
+        {
+          "rna_id": "6hc5_A",
+          "split": "train",
+          "task_sha256": "d743dd9404e3188148b4254cc792b6604986bb9e17cf6877beb5e7a565cad7d5"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "867260d956c9441194edb1a1f96b4713ba79237be31708a07c961f92646d18b6"
+    },
+    {
+      "label_conflict": false,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "4gpx_A",
+          "split": "train",
+          "task_sha256": "8d744b342e7f16ed247e781369ff1cdc6f2ae704ece2c03a8ef7ed7c851394d8"
+        },
+        {
+          "rna_id": "5z1i_A",
+          "split": "train",
+          "task_sha256": "8d744b342e7f16ed247e781369ff1cdc6f2ae704ece2c03a8ef7ed7c851394d8"
+        }
+      ],
+      "representative": "4gpx_A",
+      "sequence_sha256": "519b7a82aa8f269e990d53dd3ee0471e0dd4017bbfae78c3ab1651722c89adf4"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "4k32_A",
+          "split": "train",
+          "task_sha256": "b4bc12c93a6e621f2ad0164a0b575c18e45e8fb1ed5f672ab1c96021de8c1fcb"
+        },
+        {
+          "rna_id": "4zc7_A",
+          "split": "train",
+          "task_sha256": "666032e77bbfd931c5c9f4e9a15de0676311154982afa0976165b436a9336a03"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "a3406dbe3d857034692d3f6d2b44af9eab127e9ef24f9185d5efa7607d72375f"
+    },
+    {
+      "label_conflict": true,
+      "length": 21,
+      "records": [
+        {
+          "rna_id": "5zei_A",
+          "split": "train",
+          "task_sha256": "b9560665e7e83d9f327e2dc675438cf38180e7a29155eef24e6e9735747f1f3f"
+        },
+        {
+          "rna_id": "5zej_A",
+          "split": "train",
+          "task_sha256": "40105e98d9e2b3df0b25365b2b2ed3fea4142556b6d73e49c90ee245691d0124"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "cb4c8262684de23e79571f2085674e0d9d18b38bc117dd1d28394797e10df544"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "5vcf_A",
+          "split": "train",
+          "task_sha256": "c78685f6d917f168740ea6785b2053fb6d6a636d193c6ea8a9bf5c177bd395e8"
+        },
+        {
+          "rna_id": "5vci_A",
+          "split": "train",
+          "task_sha256": "1d19620b632f54b2b7dfa4e8a6441e9307d878f1f732badc7117415f5d79b9ee"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "8690a16eb9ae2779f2b43618a8cbded1e9ee0bccb37a8843054477b802b7c15b"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "1nta_A",
+          "split": "train",
+          "task_sha256": "8dde669db71540172eaaa08f1e9b81d3244b1682ea685dfa50a80495540d03b1"
+        },
+        {
+          "rna_id": "1ntb_A",
+          "split": "train",
+          "task_sha256": "93b014a924097ec6562782987b37481826698de7c8945ec30da18efe463201e2"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "775fa2195f8471fb62d6526162a97e0e7b2fc7f82240b9e458d97843a0f661ab"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "4gpy_A",
+          "split": "train",
+          "task_sha256": "d67c8c72adcff288bd6e3144951b08400543ea5dd2fe8a59d941554af1b5cbc3"
+        },
+        {
+          "rna_id": "7edl_A",
+          "split": "train",
+          "task_sha256": "f80a03418694b7bc9712a1665468fb26d454512cb0c9a22135c821b81151977e"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "fe2ea4491ca8e36c4cb3e2f1b83f64e8e92a55403e601cf1db76e5ea3f9198e2"
+    },
+    {
+      "label_conflict": true,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "2o3v_A",
+          "split": "train",
+          "task_sha256": "75f2897633a0000cccdd515a721827fbae7735387c3386ab462a66e7953d3c27"
+        },
+        {
+          "rna_id": "5xz1_A",
+          "split": "train",
+          "task_sha256": "de651c024b5071e8c4d8dfd899c088bb7f0f230b2f300bd8a8c2a034cbd35c7e"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "82fe21246a1f244759c13b06990b3a1266bf6757f2c0a2ca173295815c6a6c5f"
+    },
+    {
+      "label_conflict": false,
+      "length": 22,
+      "records": [
+        {
+          "rna_id": "4k31_B",
+          "split": "train",
+          "task_sha256": "8f9c2ba103f6fe50b5c06d34cf4f046511d9182e4d2a97554e1997b83d35cf2e"
+        },
+        {
+          "rna_id": "4k31_C",
+          "split": "train",
+          "task_sha256": "8f9c2ba103f6fe50b5c06d34cf4f046511d9182e4d2a97554e1997b83d35cf2e"
+        }
+      ],
+      "representative": "4k31_B",
+      "sequence_sha256": "82e02db29e6af6dc802b5b1756e3afe3ea917b879f003570da964c6343035ec7"
+    },
+    {
+      "label_conflict": true,
+      "length": 25,
+      "records": [
+        {
+          "rna_id": "1ei2_A",
+          "split": "train",
+          "task_sha256": "f369580c8927de758ab5c65c43327da7771aa38913d73fdcc7de3945b29b4100"
+        },
+        {
+          "rna_id": "2kgp_A",
+          "split": "train",
+          "task_sha256": "d62dbe37cf12ad8049ee3ebb07bc06f41b89cdc63bbff2b6555753938fb6aa33"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "e35c8599c960a450716afb747ebb69b6d583c092880ea8d95fd4673058cd4d7a"
+    },
+    {
+      "label_conflict": true,
+      "length": 27,
+      "records": [
+        {
+          "rna_id": "2kxm_A",
+          "split": "train",
+          "task_sha256": "b0bdbb828f678cc00efb8fd97f01613815f74bb19477c7486d7dff98c9e89ff8"
+        },
+        {
+          "rna_id": "2mxs_A",
+          "split": "train",
+          "task_sha256": "40c84ba8cc50758e06fe526292d38ef223548c3cd4ebcacb6428d14188f94dad"
+        },
+        {
+          "rna_id": "2n0j_A",
+          "split": "train",
+          "task_sha256": "01495c640bcde3fcdbd7bfdc548750d0ced735d99f291cefaa56e262e11e57d4"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "8d43abef35e79b86af8a0296b95c099f6aa6d1858eb0378f680f00acd412805f"
+    },
+    {
+      "label_conflict": true,
+      "length": 30,
+      "records": [
+        {
+          "rna_id": "1aju_A",
+          "split": "train",
+          "task_sha256": "bc54e1a043658e478a50b3312a041feb04945e12f8a2157dc9416317c29e14c0"
+        },
+        {
+          "rna_id": "1akx_A",
+          "split": "train",
+          "task_sha256": "4cbd9f606609ac6021e7704ec12d783e3f4021b3d9d42731397a42d93eb9c486"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "917ae0fb1cfeddc3a4f4d9bb204f2a1aee9903c3c300be70d6cbdf21ff773178"
+    },
+    {
+      "label_conflict": true,
+      "length": 33,
+      "records": [
+        {
+          "rna_id": "3gca_A",
+          "split": "train",
+          "task_sha256": "44d1f0725db877dc04cf2cd847bd3835d8bf4424fee480a132022d4749f37cfb"
+        },
+        {
+          "rna_id": "3q50_A",
+          "split": "train",
+          "task_sha256": "4114bb85514381784191891122049e916a48bc0fcf3b87f1d4ff8edd7f0d091d"
+        },
+        {
+          "rna_id": "6vui_A",
+          "split": "train",
+          "task_sha256": "121cfeec97b2ec028e233deb7f18eabbadc2ab559a012063b402f6db0a698848"
+        },
+        {
+          "rna_id": "7e9i_A",
+          "split": "train",
+          "task_sha256": "49d572d50515758a120df9aa9c766cbfce3999bd268ed70c62b357b5595c56d7"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "74587d4e5f92cb8e93340faef67356fa1592fa31850000046a6554e92de644d8"
+    },
+    {
+      "label_conflict": true,
+      "length": 33,
+      "records": [
+        {
+          "rna_id": "8d28_B",
+          "split": "train",
+          "task_sha256": "4684e250e6f7d5966f1338704dc9f80561c68887c5d2f709480e89c66213acdf"
+        },
+        {
+          "rna_id": "8d2a_A",
+          "split": "train",
+          "task_sha256": "ddd480d2e402b4df9cfddb82b324928fdc875cf495bea2bb4b3aa8219adebb31"
+        },
+        {
+          "rna_id": "8d5l_A",
+          "split": "train",
+          "task_sha256": "485f99b161c1ac492959b9ce55dbe4b83043f03e2b216cd8a317d0ee6c23e465"
+        },
+        {
+          "rna_id": "8d5o_A",
+          "split": "train",
+          "task_sha256": "d48052867d5d6df06ec6e9c92c759e2d7e30b756c0b0b431981b193664dda858"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "cce6037d72c1a636fbaf380994331f10bd891279a175bb459f511b088cafd889"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "6c63_A",
+          "split": "train",
+          "task_sha256": "2acfd6f4c60699eba1193481f3c861c717bf4b0112b87ece67bd058d8a7cc626"
+        },
+        {
+          "rna_id": "6c64_A",
+          "split": "train",
+          "task_sha256": "dd24b01d1971c6f391826b4cba8da8f23f87e8e412f6f193bd15fff8f67bcec3"
+        },
+        {
+          "rna_id": "8u5k_A",
+          "split": "train",
+          "task_sha256": "ed1e221ebfcf4378b387a740866b2e6a046f578f5ad604d2d5a9f6dbb0b30c98"
+        },
+        {
+          "rna_id": "8u5p_A",
+          "split": "train",
+          "task_sha256": "39b1c838c15f38a01e3abdbcfc9f98a5bc67e8cf2b6f23a3823d9e1fe0a960b3"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "0bdbf96ead2bceb94db9fe5b026b7364b70e5559c92c1e3704226d6567c1b1da"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "8u5t_A",
+          "split": "train",
+          "task_sha256": "33ef00028c36fd051d4539bcc0948fd83ff0c1bfa1b7e2500c9935a1bb0faf52"
+        },
+        {
+          "rna_id": "8u5z_A",
+          "split": "train",
+          "task_sha256": "24856fa5df32ea030673a06cc1e44cca6957d8d9d0b555824161c07d7b6c7799"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "e3351fd63bae44d5bf0c4cfdbab298c4cdbba2e5e90ef917ec43c80e1fcf62a1"
+    },
+    {
+      "label_conflict": true,
+      "length": 36,
+      "records": [
+        {
+          "rna_id": "5bjp_E",
+          "split": "train",
+          "task_sha256": "184e85a5ce31b437064e4a5f5556bcfb2cb7f944ad1469d729cc648c72fb98e3"
+        },
+        {
+          "rna_id": "6e81_A",
+          "split": "train",
+          "task_sha256": "29f1ff26bbdf0bb4ca0dd8eccb036c3d61caee966471b2600580eaedfcb23ce4"
+        },
+        {
+          "rna_id": "6e84_A",
+          "split": "train",
+          "task_sha256": "58f98e947c2ec6ec30eeecab9d76dce3e4e36550315faf33dd7f326a57b8e760"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "4b413a46a00c26bb7ca8ee63c710aab5fe39c62f018465beb36f9bedc79c6861"
+    },
+    {
+      "label_conflict": false,
+      "length": 45,
+      "records": [
+        {
+          "rna_id": "8eyu_B",
+          "split": "train",
+          "task_sha256": "729c71709d3067ea83da9a24cf1b097249a3394045a977323ede15e15546a443"
+        },
+        {
+          "rna_id": "8eyv_A",
+          "split": "train",
+          "task_sha256": "729c71709d3067ea83da9a24cf1b097249a3394045a977323ede15e15546a443"
+        }
+      ],
+      "representative": "8eyu_B",
+      "sequence_sha256": "c746f1b02f8cce430e5756db62f61c6ad13ac93085dadd1b43a81b14200fbd9e"
+    },
+    {
+      "label_conflict": true,
+      "length": 48,
+      "records": [
+        {
+          "rna_id": "6gzk_A",
+          "split": "train",
+          "task_sha256": "fedafd6cfc211623b6d1b8f9d1bf2784efb9f172090fbc136d78d529814ccaac"
+        },
+        {
+          "rna_id": "6gzr_A",
+          "split": "train",
+          "task_sha256": "7ea9a25d8b7ba3499f6b8e58da8e0b2d639fab707ca31dbc85bb102ee11b97a5"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "be5fa2eaf52c9178ae8bb5cd29f33bb25da14f41b3479f273e5dc715b29463e3"
+    },
+    {
+      "label_conflict": true,
+      "length": 49,
+      "records": [
+        {
+          "rna_id": "7wib_V",
+          "split": "train",
+          "task_sha256": "a4125060cfba06f5251863f69aa9aa4b8c93baef468ec97df94d86aff7d75d45"
+        },
+        {
+          "rna_id": "7wif_V",
+          "split": "train",
+          "task_sha256": "53a2ebe18828d703e7b219e52f9ab8b749fcdd07a44b92e9c0fb8fe78c894c1e"
+        },
+        {
+          "rna_id": "7wii_V",
+          "split": "train",
+          "task_sha256": "36a9e000433a6f79efc0173407c86a1a2eea29c9cf16e556e9c461ddc6017819"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "e65a3414b8827a46f5f7e46fecfd15f97033f0e96ddf5323cbae303089a0b44a"
+    },
+    {
+      "label_conflict": true,
+      "length": 50,
+      "records": [
+        {
+          "rna_id": "7d81_A",
+          "split": "train",
+          "task_sha256": "5008542f69001e5fdefbf7645039733635e47a9d3eb22b1d9413880f81de446e"
+        },
+        {
+          "rna_id": "7d82_A",
+          "split": "train",
+          "task_sha256": "0c76305b32acbb759a991c81298cd9446937e0ad027d9fb45389de00f871abe9"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "0220156db9de808ac264827acbcfdfc3e5f57740b7ea6ac6be5e513af0363b16"
+    },
+    {
+      "label_conflict": true,
+      "length": 51,
+      "records": [
+        {
+          "rna_id": "7d7w_A",
+          "split": "train",
+          "task_sha256": "a872b865dcd2d06a11fdbea09c37b09a18770b38fc52eeaae0477aeda8c79ceb"
+        },
+        {
+          "rna_id": "7d7x_A",
+          "split": "train",
+          "task_sha256": "10ea140466ee5fd38b8b690679366c49b98cfa6bdeb3f5722c07dadecd6e9c65"
+        },
+        {
+          "rna_id": "7d7z_A",
+          "split": "train",
+          "task_sha256": "87f123c4735d7053ea3aab430a1b1950e5659a7d1834b1afd65cb3dd1b990cff"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "1cb24eda5096a47801e2f9ab075e3abe73d95d656080488231e63eef3a2c9e67"
+    },
+    {
+      "label_conflict": true,
+      "length": 52,
+      "records": [
+        {
+          "rna_id": "6tf1_A",
+          "split": "train",
+          "task_sha256": "e78d8d1044a9a48cde2ceca8a0eac59fa6e4994ddb119144e46a11cd1095562b"
+        },
+        {
+          "rna_id": "6tf2_A",
+          "split": "train",
+          "task_sha256": "d50dbd5005904f4166c759dc6bde244aaedd433432958411526b4cf6a68597e8"
+        },
+        {
+          "rna_id": "6tf3_A",
+          "split": "train",
+          "task_sha256": "bce0e69fd9732b0e76c0d8ded255d3c38dd02c6290c8f306c41128f00bff8645"
+        },
+        {
+          "rna_id": "6tfe_A",
+          "split": "train",
+          "task_sha256": "0b73e2e046cec61e1c8339ee814172d13a54e67132dceebc4615a9119eb69cfa"
+        },
+        {
+          "rna_id": "6tff_A",
+          "split": "train",
+          "task_sha256": "de2bc5d69224308e9f428a8234fd8e23517bc8a857ecdb7b037f34738bf0000a"
+        },
+        {
+          "rna_id": "6tfg_A",
+          "split": "train",
+          "task_sha256": "7273bf06d924092be62215133747b8c96044a8f3a1662808248fbff1d73d015d"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "0c42b5e033599d470b1bf580d2c74f13541033ce31d43f5c35377d42229aba30"
+    },
+    {
+      "label_conflict": true,
+      "length": 52,
+      "records": [
+        {
+          "rna_id": "3e5c_A",
+          "split": "train",
+          "task_sha256": "a9aed90886340f9bb798744b22bcee2c03a2a2fad823cbe1e6e8e9f5323596f4"
+        },
+        {
+          "rna_id": "3e5e_A",
+          "split": "train",
+          "task_sha256": "e477f3b36de4c979ff1d1f17417159b3826393b6d46f69edc8085adb056d226a"
+        },
+        {
+          "rna_id": "3e5f_A",
+          "split": "train",
+          "task_sha256": "a9aed90886340f9bb798744b22bcee2c03a2a2fad823cbe1e6e8e9f5323596f4"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "e92721c2e4378ac5f329e5d29af524a5bc5d6e19bd7a4c237382743ecfac5a7a"
+    },
+    {
+      "label_conflict": true,
+      "length": 53,
+      "records": [
+        {
+          "rna_id": "5kx9_X",
+          "split": "train",
+          "task_sha256": "f7b45a3c6268c457aa2ce743d1f033d4984178f3ea01838888daba03a6fed822"
+        },
+        {
+          "rna_id": "6dn2_X",
+          "split": "train",
+          "task_sha256": "3830b6f17d7f1757f1109b7caf8cccc050f6a1b6bf7e996f4c5e284a0f4dea04"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "56f62ef02f40e00eca8801c042521b44074ec731550e12b69139f00e460dd01b"
+    },
+    {
+      "label_conflict": true,
+      "length": 54,
+      "records": [
+        {
+          "rna_id": "3f4e_X",
+          "split": "train",
+          "task_sha256": "58f2030a396e46253283deeedd6be0bb7606c845554931a2e2aa3a274fc329e1"
+        },
+        {
+          "rna_id": "3f4g_X",
+          "split": "train",
+          "task_sha256": "b3aaa4d177bbb93fda7efa9f4fe30545e7115fe7cc2f52adac7b544005811767"
+        },
+        {
+          "rna_id": "5c45_X",
+          "split": "train",
+          "task_sha256": "da369bf0ee87f452849d7f41e671d5de67aa7600b73e6b6414642e0bb099401e"
+        },
+        {
+          "rna_id": "6bfb_X",
+          "split": "train",
+          "task_sha256": "98b0ccd4640b50492af48dd583d570244ffaf98b85c58d80a0af3ef9582fcecc"
+        },
+        {
+          "rna_id": "6dn3_X",
+          "split": "train",
+          "task_sha256": "805ef82574f703692067e8f1d3e5a951f8db1f80a2767ddc535645eb2d373cfd"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "d51a50adf2790e4d79a4c8a982def7bc2b9a5f5a61d8196361c218f940f4d990"
+    },
+    {
+      "label_conflict": true,
+      "length": 60,
+      "records": [
+        {
+          "rna_id": "8gxb_A",
+          "split": "train",
+          "task_sha256": "d0603d4881d4adc0d7c90be59909c611c0264b0f91d50ada29966c1e1bcbc939"
+        },
+        {
+          "rna_id": "8gxc_A",
+          "split": "train",
+          "task_sha256": "9d14bcfbf64f27ce011404d135c110d8e8bd341d6d0486acac088c00e337b4c9"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "ed405b00a7a9ccfef0e77aea7be89866d383f3f028982dba0077b51609038188"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "1evv_A",
+          "split": "train",
+          "task_sha256": "fe3c6d3bbe4dd5fa989b36a4e61cdbe0fbbb54b6f67206327283c6fd3a288336"
+        },
+        {
+          "rna_id": "1tn1_A",
+          "split": "train",
+          "task_sha256": "ed8f66ab09a3f08908c9fb433a7f89cfd9251d81ad2862152686a3341417668e"
+        },
+        {
+          "rna_id": "1tn2_A",
+          "split": "train",
+          "task_sha256": "ed8f66ab09a3f08908c9fb433a7f89cfd9251d81ad2862152686a3341417668e"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "f168fc0abd6d4381a09d4f30da66320933bb2c44a83068bef3f677d2e5a37021"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "3skt_A",
+          "split": "train",
+          "task_sha256": "544b633298f41a5ff2b1232499f16508770afa12cd323e438b109cd75a0a5b9f"
+        },
+        {
+          "rna_id": "3skw_A",
+          "split": "train",
+          "task_sha256": "192f8a8ff3d0b541b2fe05f37be5b5b75ebe5e2ada4def814d8de5988f9dfe64"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "d0722d5bb8705deedcae52ada9b036c5e7c7347ac15823ee8d1a7d76f128f71f"
+    },
+    {
+      "label_conflict": true,
+      "length": 66,
+      "records": [
+        {
+          "rna_id": "3ski_A",
+          "split": "train",
+          "task_sha256": "ebee83c8547be0da142422037be309115ba2a6ba3957dc7aca6696c0fef59e73"
+        },
+        {
+          "rna_id": "3skz_A",
+          "split": "train",
+          "task_sha256": "50eaeff9d5bc34d423e71c92967dd088e5e31f01c8180e3d1e2a9fbe670c016e"
+        },
+        {
+          "rna_id": "3slq_A",
+          "split": "train",
+          "task_sha256": "ef440cf425c25a3607c3b16ff1816d616dd9850a0aeded15b0ce7012d87b7fbd"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "9a25d1fa03c8f7b59bc42f3608243088068f8ce4bc47760094d6130c785f3f31"
+    },
+    {
+      "label_conflict": true,
+      "length": 76,
+      "records": [
+        {
+          "rna_id": "5d5l_A",
+          "split": "train",
+          "task_sha256": "29fdd23ee1eb2ff481c3c5e3a64d74a5079a634b2721109cfaaf68b3aa897494"
+        },
+        {
+          "rna_id": "5d5l_D",
+          "split": "train",
+          "task_sha256": "d2150fc3402d27e3adf1bc47f8ce54073d698f0918e27b0deb48d949ea0b8340"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "5a0d1d1576d3bce55911cb8d01d78b651a5b54e833896b650ba177b52f97605c"
+    },
+    {
+      "label_conflict": true,
+      "length": 78,
+      "records": [
+        {
+          "rna_id": "2hoj_A",
+          "split": "train",
+          "task_sha256": "ba1f8389156bd5ba4c9c69659e6a782e5aee76b8d05bfe19a69b80521492e122"
+        },
+        {
+          "rna_id": "4nyg_A",
+          "split": "train",
+          "task_sha256": "809cacdecc3ede7dd4288e157f42158f83d47cfedacffef0b9768840c22f0962"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "8237b752b1e13493f2675f541897fcd624c2bd5c6676d10c83940710c5173790"
+    },
+    {
+      "label_conflict": true,
+      "length": 89,
+      "records": [
+        {
+          "rna_id": "4lvv_A",
+          "split": "train",
+          "task_sha256": "a3e0624348c803bb96202842e04d329f84f45aaa1d12bc9ac5cd898e2e1db4c3"
+        },
+        {
+          "rna_id": "4lvx_A",
+          "split": "train",
+          "task_sha256": "d05eb87a24143df4f93886f135da9a3768680e791c208d9cf5177f5f54c7aa13"
+        },
+        {
+          "rna_id": "4lvy_A",
+          "split": "train",
+          "task_sha256": "2e81fa08dbe22642f5368529ea85ac4c10cb7fa87fa4a7104ef448fcfe3effe0"
+        },
+        {
+          "rna_id": "6q57_A",
+          "split": "train",
+          "task_sha256": "6373954c922b2edcea2550cebbe7cadc750b448f40960d84169b973183347f43"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "974f51da94729865209d77ea0328a5f6d9dcd2d165363cd1e56bbc9c795d2214"
+    },
+    {
+      "label_conflict": true,
+      "length": 100,
+      "records": [
+        {
+          "rna_id": "6dmc_A",
+          "split": "train",
+          "task_sha256": "50bfe3807d9d78db5a77cb1f1d9a6f8cd9c3b347c9505653ec011e2cbb9d7209"
+        },
+        {
+          "rna_id": "6dmd_A",
+          "split": "train",
+          "task_sha256": "e3f1b938c384de9d872fa3776419ded92d949a312bc77f5739b928bc20baa992"
+        },
+        {
+          "rna_id": "6dme_A",
+          "split": "train",
+          "task_sha256": "7071ce5255715dc94dc85328fe6ab6117894458ec1cfce472648ebfb620b4057"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "7bded05379d2f52f490acc710fe54c6d5bdc529eb7bf59c907528209efc4174b"
+    },
+    {
+      "label_conflict": true,
+      "length": 105,
+      "records": [
+        {
+          "rna_id": "6dlq_A",
+          "split": "train",
+          "task_sha256": "7ca3f85fcaa126cb5c47062b68b7ed915153d49d506f364e7eca9ed7bd25a5da"
+        },
+        {
+          "rna_id": "6dls_A",
+          "split": "train",
+          "task_sha256": "cd2db8ce0aa599b992a76b13334db4646f4804234882c7e1ea7b6c1d0e494f27"
+        },
+        {
+          "rna_id": "6dlt_A",
+          "split": "train",
+          "task_sha256": "856037f576223e2ab69971d840940c031f36477c6d8bd966af3f34f43804158a"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "78c37a3f3dee9b1d5d01f51fbc6492e773505a01268bcfdf31778136320c70dd"
+    }
+  ],
+  "validation": [
+    {
+      "label_conflict": true,
+      "length": 51,
+      "records": [
+        {
+          "rna_id": "6tf0_A",
+          "split": "val",
+          "task_sha256": "b4d70f7f8a68432893985becb0454136b8526665ae655d519596fa8bf708ea4b"
+        },
+        {
+          "rna_id": "6tfh_A",
+          "split": "val",
+          "task_sha256": "fb284d6423f50268a4b99698321413a329b0fc8498f0ed108b27a51b1346c2c9"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "f3046cd4a75c5b048e40c0203396d7dde6671209fdf05555b08eafd5c5054020"
+    },
+    {
+      "label_conflict": true,
+      "length": 64,
+      "records": [
+        {
+          "rna_id": "3skl_A",
+          "split": "val",
+          "task_sha256": "5ca4009e7c0d7ef9d00843411c5f45cc09ef18de70c35e28466d8ea2d6ed46b1"
+        },
+        {
+          "rna_id": "3skr_A",
+          "split": "val",
+          "task_sha256": "e8ab46b5d66963d3744b4cfd5e3864bf94a39fb4d397e9632d9ab3996f509f3c"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "d0722d5bb8705deedcae52ada9b036c5e7c7347ac15823ee8d1a7d76f128f71f"
+    },
+    {
+      "label_conflict": true,
+      "length": 79,
+      "records": [
+        {
+          "rna_id": "2hol_A",
+          "split": "val",
+          "task_sha256": "389bf50f329d0ea1ba9a6d9979d632db5430e02d0b20d9c26eec9cfbab806d1c"
+        },
+        {
+          "rna_id": "7tzu_A",
+          "split": "val",
+          "task_sha256": "77122a7b498804a6253fef8b368f3df801652eeadd147dae58423ac17a2ff1c0"
+        }
+      ],
+      "representative": null,
+      "sequence_sha256": "30ea7dca24b51cdec8d7e1a9fba76be7eaec7a84e39562edfb66af0612c4ce02"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "alignment": {
+    "extend_gap_score": -1.0,
+    "match_score": 1.0,
+    "mismatch_score": -1.0,
+    "open_gap_score": -4.0
+  },
+  "data_dir": "data/raw/cobra",
+  "identity": {
+    "min_length_ratio": 0.8,
+    "selection_denominator": "alignment_columns"
+  },
+  "max_len": 161,
+  "output_dir": "data/clean",
+  "policy": {
+    "sequence_label_conflict": "drop_all",
+    "test_priority": [
+      "TE18",
+      "TL12",
+      "JL10",
+      "RB9"
+    ]
+  },
+  "results_dir": "results",
+  "strict_thresholds": [
+    0.9,
+    0.8,
+    0.7,
+    0.5
+  ],
+  "test_order": [
+    "TE18",
+    "TL12",
+    "JL10",
+    "RB9"
+  ]
+}
