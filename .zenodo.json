@@ -1,0 +1,25 @@
+{
+  "title": "DUET: sequence-only prediction of RNA-small molecule binding sites",
+  "description": "Code, configuration files, processed graph tensors, manifests, and scripts for the DUET RNA-small molecule binding-site model and its test-clean evaluation protocol.",
+  "creators": [
+    {
+      "name": "Xiong, Kaifeng",
+      "orcid": "0009-0009-7176-9654"
+    },
+    {
+      "name": "Jia, Jianhua"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0",
+  "language": "eng",
+  "keywords": [
+    "RNA-small molecule binding",
+    "RNA language model",
+    "graph neural network",
+    "benchmark leakage",
+    "sequence-only prediction"
+  ]
+}
