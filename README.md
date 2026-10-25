@@ -3,7 +3,10 @@
 This repository contains the code and processed resources for the DUET manuscript by Kaifeng
 Xiong and Jianhua Jia.
 
-Author ORCID: Kaifeng Xiong, <https://orcid.org/0009-0009-7176-9654>
+Author ORCIDs:
+
+- Kaifeng Xiong: <https://orcid.org/0009-0009-7176-9654>
+- Jianhua Jia: <https://orcid.org/0009-0006-6970-6003>
 
 ## Large-data protocol
 
