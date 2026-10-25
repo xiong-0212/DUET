@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both this archive and the associated article."
+title: "DUET: sequence-only prediction of RNA-small molecule binding sites"
+type: software
+authors:
+  - family-names: Xiong
+    given-names: Kaifeng
+    orcid: "https://orcid.org/0009-0009-7176-9654"
+    affiliation: "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, Jiangxi, China"
+  - family-names: Jia
+    given-names: Jianhua
+    affiliation: "School of Information Engineering, Jingdezhen Ceramic University, Jingdezhen, Jiangxi, China"
+repository-code: "https://github.com/xiong-0212/DUET"
+url: "https://github.com/xiong-0212/DUET"
+license: MIT
+version: "1.0"
+date-released: 2026-10-21
+keywords:
+  - RNA-small molecule binding
+  - RNA language model
+  - graph neural network
+  - benchmark leakage
+  - sequence-only prediction
