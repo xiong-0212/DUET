@@ -1,12 +1,14 @@
 # DUET: sequence-only prediction of RNA-small molecule binding sites
 
 This repository contains the code and processed resources for the DUET manuscript by Kaifeng
-Xiong and Jianhua Jia.
+Xiong, Sulu Long, Chuanyu Lin and Jianhua Jia.
 
 Author ORCIDs:
 
-- Kaifeng Xiong: <https://orcid.org/0009-0009-7176-9654>
-- Jianhua Jia: <https://orcid.org/0009-0006-6970-6003>
+- Kaifeng Xiong: https://orcid.org/0009-0009-7176-9654
+- Sulu Long: https://orcid.org/0009-0004-6949-9062
+- Chuanyu Lin: https://orcid.org/0009-0009-3504-5296
+- Jianhua Jia: https://orcid.org/0009-0006-6970-6003
 
 ## Large-data protocol
 
